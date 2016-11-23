@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Checkbox
+title: TimesUp
 thumbnail-path: "img/blocitoff.png"
 short-description: A self-destructing to-do list application.
 
@@ -13,7 +13,7 @@ short-description: A self-destructing to-do list application.
 
 Checkbox is a self-destructing to-do list application that encourages users to perform weekly tasks. Users have a 7 day time period at which the tasks must be completed before it is automatically removed.   
 
-## Problem
+## Problem and Challenges
 
  Using Ruby on Rails, develop an application that allows users to add and check off completed tasks. Tasks are then automatically removed after a certain period of time if not completed.
 

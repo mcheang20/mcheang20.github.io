@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BlocJams
+title: Chatter Box
 thumbnail-path: "img/blocjams.jpg"
 short-description: A digital music player.
 
