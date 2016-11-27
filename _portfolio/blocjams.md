@@ -31,7 +31,7 @@ Taking similar concepts from similar websites, design and develop an application
         </dd>
   </dl>
   <dl class="row col-md-4">
-      <dt class="info-col">Playback Setting</dt>
+      <dt class="info-col">Playback Setting</dt
         <dd>
           One requirement needed was song playback functionality. Users could play/pause songs and skip forward or backwards but were unable to skip to any point in the song.   Song attribute changes had to be observed to properly determine the correct playback position of a song.  Users can continue listening to the point at which the song was stopped while the attributes are updated.  
         </dd>
