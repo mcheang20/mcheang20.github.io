@@ -33,7 +33,7 @@ Create an application that allows users to send and receive messages using a rea
   <dl class="row col-md-4">
       <dt class="info-col">Modal</dt>
         <dd>
-          A simple interface had to be used to allow the interaction between users and the application. 
+          A simple interface had to be used to allow the interaction between users and the application.
         </dd>
   </dl>
 </div>
@@ -44,17 +44,17 @@ Create an application that allows users to send and receive messages using a rea
   <dl class="row col-md-4">
       <dt class="info-col">Firebase</dt>
         <dd>
-        Realtime exchange of messages between users were needed. A realtime database system had to be implemented to handle and synchronize the exchange of data for smooth application functionality.
+          The solution for a database system was the use of the Firebase service. This provided a simple way for handling and syncing data with the backend allowing for realtime messaging capabilities.  
         </dd>
   </dl>
   <dl class="row col-md-4">
-      <dt class="info-col">Realtime Chat</dt>
+      <dt class="info-col">Angular JS</dt>
         <dd>
-          Chat rooms had to be designed in order to display list of messages. Users were also needed to be able to send messages and be associated with that message. Chat rooms were needed to be associated with the correct list of messages and users.  
+          The application was built using Angular JS along with injecting the Firebase service. Using Angular allows for simple configuration of routes and controllers. In combination of using a simple backend service like Firebase, this allows for easy synchronization between data and user interaction.
         </dd>
   </dl>
   <dl class="row col-md-4">
-      <dt class="info-col">Modal</dt>
+      <dt class="info-col">Bootstrap</dt>
         <dd>
 
         </dd>
