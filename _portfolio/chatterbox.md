@@ -56,7 +56,7 @@ Create an application that allows users to send and receive messages using a rea
   <dl class="row col-md-4">
       <dt class="info-col">Bootstrap</dt>
         <dd>
-
+          To retrieve data input from the user, Bootstrap's $UIMdodal service was used allowing update of data in realtime.  
         </dd>
   </dl>
 </div>
