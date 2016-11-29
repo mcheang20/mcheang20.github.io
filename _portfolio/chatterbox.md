@@ -2,7 +2,7 @@
 layout: post
 title: Chatter Box
 thumbnail-path:
-short-description:
+short-description: Chat with others in realtime. 
 
 ---
 
