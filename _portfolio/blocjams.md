@@ -59,6 +59,12 @@ Taking similar concepts from similar websites, design and develop an application
           A custom directive was created to handle playback functionality. In combination with jQlite methods, exiting functions were updated to handle and observe attribute changes. This allowed the selection of a specific time in a song updating the specific song's attributes.  
         </dd>
   </dl>
+  <dl class="row col-md-3">
+      <dt class="info-col">Analytics Tracking</dt>
+        <dd>
+        
+        </dd>
+  </dl>
 </div>
 
 

@@ -19,37 +19,52 @@ Develop an application based on the Ruby on Rails platform that allows users to 
 
 <div class="checkbox col3">
   <dl class="row col-md-4">
-      <dt class="info-col"></dt>
+      <dt class="info-col">User Authentication</dt>
         <dd>
-        Realtime exchange of messages between users were needed. A realtime database system had to be implemented to handle and synchronize the exchange of data for smooth application functionality.
+          A proper authentication system was needed in order for users to securely create an account as well as sign in and out of the application.  
         </dd>
   </dl>
   <dl class="row col-md-4">
       <dt class="info-col">Notification System</dt>
         <dd>
-
+          User content interaction is a key feature of Travelog. A notification system had to be established to notify users of any actions on their posts such as liking and commenting. However issues with the notification functionality were present and had to be resolved.  
         </dd>
   </dl>
   <dl class="row col-md-4">
       <dt class="info-col">Premium Service</dt>
         <dd>
-          A simple interface had to be used to allow the interaction between users and the application.
+          In order to restrict the amount of content that could be posted by users, posts were limited to a certain amount per day. However a premium service option was added to remove any restrictions.
+        </dd>
+  </dl>
+  <dl class="row col-md-4">
+      <dt class="info-col">Image and Video Upload</dt>
+        <dd>
+          Part of Travelog's content sharing was to allow users to upload images and videos.
         </dd>
   </dl>
 </div>
 
 ## Solution
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+<div class="checkbox col3">
+  <dl class="row col-md-4">
+      <dt class="info-col">Adding Devise</dt>
+        <dd>
+          Utilizing Ruby on Rails, a simple solution for authentication was adding the Devise gem. This gem handled account creation and session tracking.
+        </dd>
+  </dl>
+  <dl class="row col-md-4">
+      <dt class="info-col">Ground up notification</dt>
+        <dd>
+          A notification system was built from the ground up using Jquery, Ruby, Javascript, and AJAX. This ensured a proper way of creating and sending notifications consistently.
+        </dd>
+  </dl>
+  <dl class="row col-md-4">
+      <dt class="info-col">Stripe</dt>
+        <dd>
+          The answer to implementing a subscription payment service involved the use of Stripe. The Stripe platform's architecture and code allowed the secure handling of user payment and routing of money. Once a user has successfully made a payment they are automatically upgraded to a premium member.  
+        </dd>
+  </dl>
+</div>
 
 ## Results
-
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
-
-> Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
-
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
-
-## Conclusion
-
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.

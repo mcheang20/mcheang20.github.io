@@ -19,6 +19,7 @@ The project required the design and development based on an already existing web
 Voting Issues
   Implementing, from the ground up, a voting feature for users posed some problems. Interaction with the vote model did not generate a change in value of the votes total.  
 
+
 ## Solution
 
 
