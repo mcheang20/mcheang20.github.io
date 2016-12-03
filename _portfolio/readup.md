@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bloccit
+title: ReadUp
 thumbnail-path: "img/blocflix.png"
 short-description: Bloccit is a Reddit clone
 
