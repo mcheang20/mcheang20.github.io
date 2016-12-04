@@ -17,7 +17,7 @@ BlocJams is a digital web music player that allows users to stream their favorit
 
 Taking similar concepts from similar websites, design and develop an application from scratch using Javascript, Jquery, and AngularJS that enables users to stream and listen to music from all platforms.
 
-<div class="col3">
+<div class="col4">
   <dl class="row col-md-4">
       <dt class="info-col">User Control Bar Functionality</dt>
         <dd>
@@ -34,6 +34,12 @@ Taking similar concepts from similar websites, design and develop an application
       <dt class="info-col">Playback Setting</dt
         <dd>
           One requirement needed was song playback functionality. Users could play/pause songs and skip forward or backwards but were unable to skip to any point in the song.   Song attribute changes had to be observed to properly determine the correct playback position of a song.  Users can continue listening to the point at which the song was stopped while the attributes are updated.  
+        </dd>
+  </dl>
+  <dl class="row col-md-4">
+      <dt class="info-col">Analytics Track and Display</dt
+        <dd>
+          We wanted the ability to hold and  track events captured within the application such as how many times an album has been viewed or the times a song has been played. The captured events then needed to be displayed aesthetically.
         </dd>
   </dl>
 </div>
@@ -60,9 +66,9 @@ Taking similar concepts from similar websites, design and develop an application
         </dd>
   </dl>
   <dl class="row col-md-3">
-      <dt class="info-col">Analytics Tracking</dt>
+      <dt class="info-col">Angular-nvD3</dt>
         <dd>
-        
+          Using MVC and MVMM patterns, a custom metrics service was created to record events that the application captured. To display the captured metrics, the Angular-nvD3 library was used creating a visualization of the data over a period of time.  
         </dd>
   </dl>
 </div>

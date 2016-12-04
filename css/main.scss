@@ -28,6 +28,13 @@
     -moz-columns: 3 100px;
   }
 
+  .col4 {
+    columns: 4 50px;
+    -webkit-columns: 4 50px;
+    -moz-columns: 4 50px;
+  }
+
+
   .info-col {
     text-align: center;
   }

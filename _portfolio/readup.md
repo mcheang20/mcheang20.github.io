@@ -12,7 +12,7 @@ short-description: Bloccit is a Reddit clone
 ## Overview
 Reddit is one of the most popular sharing and web applications in the world. Replicating an application like Reddit using Ruby on Rails brings a set of challenges but also allows the one to discover how the application functions.
 
-## Problem
+## Problem and Challenges
 
 The project required the design and development based on an already existing web application. Highlighting key features and aspects which had to be built from the ground up included creation of topic and posts models, user authentication, and user interaction.
 
@@ -25,8 +25,3 @@ Voting Issues
 
 
 ## Results
-
-
-## Conclusion
-
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
