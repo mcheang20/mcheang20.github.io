@@ -11,7 +11,7 @@ short-description: A self-destructing to-do list application.
 
 ## Overview
 
-Checkbox is a self-destructing to-do list application that encourages users to perform weekly tasks. Users have a 7 day time period at which the tasks must be completed before it is automatically removed.   
+TimesUp is a self-destructing to-do list application that encourages users to perform weekly tasks. Users have a 7 day time period at which the tasks must be completed before it is automatically removed.   
 
 ## Problem and Challenges
 
@@ -21,13 +21,13 @@ Checkbox is a self-destructing to-do list application that encourages users to p
   <dl class="row col-md-6">
       <dt class="info-col">Creating and Displaying Tasks</dt>
         <dd>
-          The main purpose of Checkbox is to be able to create and delete completed tasks. Therefore the create and delete functionality had to be implemented in a way that allowed seamless user interaction.
+          The main purpose of TimesUp is to be able to create and delete completed tasks. Therefore the ability to create and delete tasks had to be implemented in a way that allowed seamless user interaction.
         </dd>
   </dl>
   <dl class="row col-md-6">
       <dt class="info-col">Automatic Deletion</dt>
         <dd>
-          Creating a system to automatically delete items after a certain time period has passed was the main issue. Items upon creation should initiate a timer where, after a certain amount of time has passed, would be deleted if not yet complete by the user.
+          Creating a system to automatically delete items after a certain time period has passed was the main challenge. Items upon creation should initiate a timer where, after a certain amount of time has passed, would be deleted if not yet completed by the user.
         </dd>
   </dl>
 </div>
@@ -44,11 +44,10 @@ Checkbox is a self-destructing to-do list application that encourages users to p
   <dl class="row col-md-6">
       <dt class="info-col">Rake Automation</dt>
         <dd>
-          In order to automate the deletion of items Rake was incorporated. A custom rake tasks was created which defined the moment an item is created and specified the period in which the item will be deleted if not yet complete.  
+          In order to automate the deletion of items, Rake was incorporated. A custom rake tasks was created,  defining the moment an item is created. A specified time period was set in which the item will be deleted if not yet complete.  
         </dd>
   </dl>
 </div>
-
 
 ## Results
 

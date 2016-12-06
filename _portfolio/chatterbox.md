@@ -2,7 +2,7 @@
 layout: post
 title: Chatter Box
 thumbnail-path:
-short-description: Chat with others in realtime. 
+short-description: Chat with friends and others in realtime.
 
 ---
 
@@ -27,7 +27,7 @@ Create an application that allows users to send and receive messages using a rea
   <dl class="row col-md-4">
       <dt class="info-col">Realtime Chat</dt>
         <dd>
-          Chat rooms had to be designed in order to display list of messages. Users were also needed to be able to send messages and be associated with that message. Chat rooms were needed to be associated with the correct list of messages and users.  
+          Chat rooms had to be designed in order to display list of messages. Users also needed to be able to send and be associated with messages they have sent. Chat rooms were needed to be associated with the correct list of messages and users.  
         </dd>
   </dl>
   <dl class="row col-md-4">
