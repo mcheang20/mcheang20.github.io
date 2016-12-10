@@ -28,14 +28,22 @@
     -moz-columns: 3 100px;
   }
 
-  .col4 {
-    columns: 4 50px;
-    -webkit-columns: 4 50px;
-    -moz-columns: 4 50px;
+  .col-all {
+    display: -webkit-box;
+    max-width: 435px;
   }
 
+  .col-all-2 {
+    display: -webkit-box;
+    max-width: 310px;
+    margin-left: -34px;
+    }
 
-  .info-col {
+  .col-info {
+    margin-left: none;
+    }
+
+  .heading {
     text-align: center;
   }
 

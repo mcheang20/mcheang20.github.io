@@ -2,7 +2,7 @@
 layout: post
 title: BlocJams
 thumbnail-path: "img/blocjams.jpg"
-short-description: A digital music player.
+short-description: Listen to music anytime anywhere.
 
 ---
 
@@ -17,59 +17,63 @@ BlocJams is a digital web music player that allows users to stream their favorit
 
 Taking similar concepts from similar websites, design and develop an application from scratch using Javascript, Jquery, and AngularJS that enables users to stream and listen to music from all platforms.
 
-<div class="col4">
-  <dl class="row col-md-4">
-      <dt class="info-col">User Control Bar Functionality</dt>
-        <dd>
-          The control bar gives users an interface to control the music they listen to. Therefore a proper control bar had to be designed that allowed users to play/pause a song, skip forwards or backwards and adjust volume settings.
+<div class="col-all">
+  <dl>
+    <dt class="heading">User Control Bar Functionality</dt>
+      <dd class="col-info">
+        The control bar gives users an interface to control the music they listen to. A proper control bar had to be designed that allowed users to play/pause a song, skip forwards or backwards, and adjust volume settings.
+      </dd>
+  </dl>
+  <dl>
+      <dt class="heading">Data Reference Consistency</dt>
+        <dd class="col-info">
+          The application required the ability to hold song data consistently without any interruption. This functionality was implemented to allow users to navigate to different pages without pausing or reloading the song if one is currently playing and to allow the updating and changing of data across components.
         </dd>
   </dl>
-  <dl class="row col-md-4">
-      <dt class="info-col">Data Reference Consistency</dt>
-        <dd>
-          The application required the ability to hold song data consistently without interruption. This functionality was implemented to allow users to navigate to different pages without pausing or reloading the song if one is currently playing and to allow the updating and changing of data across components.
+  </div>
+  <div class="col-all">
+  <dl>
+      <dt class="heading">Playback Setting</dt>
+        <dd class="col-info">
+          One requirement needed was song playback functionality. Users could play/pause songs and skip forward or backwards but were unable to skip to any point in the song. Song attribute changes had to be observed to properly determine the correct playback position of a song.  Users can continue listening to the point at which the song was stopped while the attributes are updated.  
         </dd>
   </dl>
-  <dl class="row col-md-4">
-      <dt class="info-col">Playback Setting</dt
-        <dd>
-          One requirement needed was song playback functionality. Users could play/pause songs and skip forward or backwards but were unable to skip to any point in the song.   Song attribute changes had to be observed to properly determine the correct playback position of a song.  Users can continue listening to the point at which the song was stopped while the attributes are updated.  
-        </dd>
-  </dl>
-  <dl class="row col-md-4">
-      <dt class="info-col">Analytics Track and Display</dt
-        <dd>
-          We wanted the ability to hold and  track events captured within the application such as how many times an album has been viewed or the times a song has been played. The captured events then needed to be displayed aesthetically.
+  <dl>
+      <dt class="heading">Track and Display Analytics</dt>
+        <dd class="col-info">
+          We wanted the ability to hold and track events captured within the application such as how many times an album has been viewed or the times a song has been played. The captured events then needed to be displayed aesthetically.
         </dd>
   </dl>
 </div>
 
 ## Solution
 
-<div class="checkbox col3">
-  <dl class="row col-md-3">
-      <dt class="info-col">Developing a Custom Control Bar</dt>
-        <dd>
-          The architecture of the application was first created using Javascript, HTML, and Jquery. Custom methods were created to handle the logic of the functionality of the control bar.  This was then translated over to AngularJS. A controller was created for the control bar and the existing methods was updated or removed.
+<div class="col-all">
+  <dl>
+      <dt class="heading">Developing a Custom Control Bar</dt>
+        <dd class="col-info">
+          The architecture of the application was first designed using Javascript, HTML, and jQuery. Custom methods were created to handle the logic of the control bar.  This was then translated over to AngularJS. A custom controller was then added for the control bar and the existing methods were updated or removed.
         </dd>
   </dl>
-  <dl class="row col-md-3">
-      <dt class="info-col">Angular Service</dt>
-        <dd>
-          An Angular service was used to handle data across the application's several components. This allowed the interaction between a user and any of the application's components to be seamless as data is changed.
-        </dd>
+  <dl>
+    <dt class="heading">Angular Service</dt>
+      <dd class="col-info">
+        An Angular service was used to handle data across the application's several components. This allowed the interaction between a user and any of the application's components to be seamless as data is updated.
+      </dd>
   </dl>
-  <dl class="row col-md-3">
-      <dt class="info-col">Angular Directives</dt>
-        <dd>
-          A custom directive was created to handle playback functionality. In combination with jQlite methods, exiting functions were updated to handle and observe attribute changes. This allowed the selection of a specific time in a song updating the specific song's attributes.  
+  </div>
+  <div class="col-all">
+    <dl>
+      <dt class="heading">Angular Directives</dt>
+        <dd class="col-info">
+          A custom directive was created to handle playback functionality. In combination with jQlite methods, existing functions were updated to handle and observe attribute changes. This enabled a user to select a specific time within the song.
         </dd>
-  </dl>
-  <dl class="row col-md-3">
-      <dt class="info-col">Angular-nvD3</dt>
-        <dd>
-          Using MVC and MVMM patterns, a custom metrics service was created to record events that the application captured. To display the captured metrics, the Angular-nvD3 library was used creating a visualization of the data over a period of time.  
-        </dd>
+    </dl>
+  <dl>
+    <dt class="heading">Angular-nvD3</dt>
+      <dd class="col-info">
+        Using MVC and MVMM patterns, a custom metrics service was used to capture and record events. To display the captured metrics, the Angular-nvD3 library was chosen to visualize the data over a period of time.  
+      </dd>
   </dl>
 </div>
 
