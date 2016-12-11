@@ -2,7 +2,7 @@
 layout: post
 title: TimesUp
 thumbnail-path: "img/blocitoff.png"
-short-description: Become more productive.
+short-description: Get more done.
 
 ---
 

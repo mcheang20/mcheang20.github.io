@@ -2,7 +2,7 @@
 layout: post
 title: BlocJams
 thumbnail-path: "img/blocjams.jpg"
-short-description: Listen to music anytime anywhere.
+short-description: Listen to music anytime, anywhere.
 
 ---
 
@@ -27,7 +27,7 @@ Taking similar concepts from similar websites, design and develop an application
   <dl>
       <dt class="heading">Data Reference Consistency</dt>
         <dd class="col-info">
-          The application required the ability to hold song data consistently without any interruption. This functionality was implemented to allow users to navigate to different pages without pausing or reloading the song if one is currently playing and to allow the updating and changing of data across components.
+          The application required the ability to hold song data consistently without any interruption. This functionality had to be implemented to allow users to navigate to different pages without pausing or reloading the song. This would enable the updating and changing of data across components.
         </dd>
   </dl>
   </div>
@@ -52,13 +52,13 @@ Taking similar concepts from similar websites, design and develop an application
   <dl>
       <dt class="heading">Developing a Custom Control Bar</dt>
         <dd class="col-info">
-          The architecture of the application was first designed using Javascript, HTML, and jQuery. Custom methods were created to handle the logic of the control bar.  This was then translated over to AngularJS. A custom controller was then added for the control bar and the existing methods were updated or removed.
+          The architecture of the application was first designed using Javascript, HTML, CSS, and jQuery. Custom methods were created to handle the logic of the control bar.  This was then translated over to AngularJS. A custom controller was then added for the control bar and existing methods were updated or removed.
         </dd>
   </dl>
   <dl>
     <dt class="heading">Angular Service</dt>
       <dd class="col-info">
-        An Angular service was used to handle data across the application's several components. This allowed the interaction between a user and any of the application's components to be seamless as data is updated.
+        An Angular service was used to handle data across the application's several components. This allowed the interaction between a user and any of the application's components to be seamless as data is updated. As a result a song does not get paused or reloaded if a user navigates to a different page.
       </dd>
   </dl>
   </div>

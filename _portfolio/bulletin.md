@@ -17,16 +17,16 @@ Reddit is one of the most popular sharing and web applications in the world. Rep
 
 The project required the design and development based on already existing web applications. Highlighting key features and aspects which had to be built from the ground up included creation of topic and posts models, user authentication, and user interactions.
 
-<div class="col2">
-  <dl class="row col-md-6">
-      <dt class="info-col">Voting Issues</dt>
-        <dd>
+<div class="col-all">
+  <dl>
+      <dt class="heading">Voting Issues</dt>
+        <dd class="col-info">
           Implementing a voting feature for users posed some problems. Interaction with the vote model were not generating a change in value of the votes total or the total count of votes would be incremented by the wrong amount.
         </dd>
   </dl>
-  <dl class="row col-md-6">
-      <dt class="info-col">User Features</dt>
-        <dd>
+  <dl>
+      <dt class="heading">User Features</dt>
+        <dd class="col-info">
           Being a social centered web application, we wanted users to have interactions with other users and their content. Features such as commenting, labeling, favoriting, and voting had to be included. Establishing relationships with each model posed to be a challenge.
         </dd>
   </dl>
@@ -34,16 +34,16 @@ The project required the design and development based on already existing web ap
 
 ## Solution
 
-<div class="col2">
-  <dl class="row col-md-6">
-      <dt class="info-col">Custom Vote Model and UI</dt>
-        <dd>
+<div class="col-all">
+  <dl>
+      <dt class="heading">Custom Vote Model and UI</dt>
+        <dd class="col-info">
           A custom voting system was designed on the backend. This provided the ability for users to increase or decrease the vote count of a particular post. The customization also allowed us to pinpoint any issues with registering vote counts and resolve them.  
         </dd>
   </dl>
-  <dl class="row col-md-6">
-      <dt class="info-col">User Features</dt>
-        <dd>
+  <dl>
+      <dt class="heading">Rails</dt>
+        <dd class="col-info">
 
         </dd>
   </dl>

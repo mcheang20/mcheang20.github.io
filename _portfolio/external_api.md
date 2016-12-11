@@ -14,13 +14,13 @@ Create a web tool that allows activity tracking on registered web applications.
 
 ## Problems and Challenges
 
-Build an API analytics service that enables users to track activity on registered web applications.  
+Designing and building an API from scratch poses some challenges. The biggest issue would be the management and communication of data between the server-side and the client-side.  
 
 <div class="col2">
   <dl class="row col-md-4">
       <dt class="info-col">Receiving and Tracking Events</dt>
         <dd>
-          Our service had to feature the registry of various applications. Registered applications then needed to be be able to manage receiving and tracking of events from the client-side.
+          Our service had to feature the registry of various applications. Registered applications needed to be be able to manage receiving and tracking of events from the client-side.
         </dd>
   </dl>
   <dl class="row col-md-4">
@@ -37,7 +37,7 @@ Build an API analytics service that enables users to track activity on registere
   <dl class="row col-md-4">
       <dt class="info-col">Designing Custom API</dt>
         <dd>
-        The entire service was built using Ruby on Rails. In order for the service to track events from registered applications, custom API routes and a controller were created. A Javascript snippet was devised on the client side. This Javascript snippet tracks an event which then makes an AJAX request to the server-side API.
+        The entire service was constructed using Ruby on Rails. In order for the service to track events from registered applications, custom API routes and a controller were created. A Javascript snippet was devised on the client side. This Javascript snippet tracks an event which then makes an AJAX request to the server-side API.
         </dd>
   </dl>
   <dl class="row col-md-4">

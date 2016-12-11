@@ -14,14 +14,13 @@ short-description: Chat with friends and others in realtime.
 Chatter is a messaging application that allows users to send and receive messages in realtime with friends or strangers.
 
 ## Problem and Challenges
-
-Design and develop an application that allows users to send and receive messages using a realtime database and backend service.
+The application had to feature the ability to send and receive messages in realtime. This meant including a database and backend service to manage the transfer of data between users and the database.
 
 <div class="col-all-2">
   <dl>
       <dt class="heading">Database Storage</dt>
         <dd class="col-info">
-        A realtime database system was a critical requirement to handle and synchronize the exchange of data for smooth application functionality.
+        The application was aimed to handle large amounts of messages to be transferred between users. A realtime database system was a critical requirement to handle and synchronize the exchange of data for smooth application functionality.
         </dd>
   </dl>
   <dl>
@@ -33,7 +32,7 @@ Design and develop an application that allows users to send and receive messages
   <dl>
       <dt class="heading">Modal</dt>
         <dd class="col-info">
-          A simple interface was required to allow the interaction between users and the application.
+          A simple interface was required to allow the interaction between users and the application. This included the creation of chat rooms and setting usernames.
         </dd>
   </dl>
 </div>
@@ -62,3 +61,5 @@ Design and develop an application that allows users to send and receive messages
 </div>
 
 ## Results
+
+A messaging application where users can chat in realtime without interference. 
