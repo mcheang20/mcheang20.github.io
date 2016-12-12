@@ -18,7 +18,7 @@ theme_settings:
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: "cheangmatt@gmail.com" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
@@ -27,7 +27,7 @@ theme_settings:
   github: "mcheang20"
   google_plus:
   instagram:
-  linkedin:  
+  linkedin: "https://www.linkedin.com/in/mattcheang"
   pinterest:
   reddit:
   soundcloud:
@@ -39,7 +39,7 @@ theme_settings:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: "UA-88928800-1" # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
   katex: true # Enable if using math markup
 

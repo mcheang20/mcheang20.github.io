@@ -1,4 +1,4 @@
 ---
 layout: post
-title: What I've Learned 
+title: What I've Learned
 ---
