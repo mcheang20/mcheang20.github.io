@@ -2,7 +2,7 @@
 layout: post
 title: TimesUp
 thumbnail-path: "img/blocitoff.png"
-short-description: Get more done.
+short-description: Become more productive
 
 ---
 
@@ -17,35 +17,35 @@ TimesUp is a self-destructing to-do list application that encourages users to co
 
  Using the Ruby on Rails platform, develop an application that allows users to add and check off completed tasks. Tasks are then automatically removed after a certain period of time if not completed.
 
-<div class="checkbox col2">
-  <dl class="row col-md-6">
-      <dt class="info-col">Creating and Deleting Tasks</dt>
-        <dd>
-          Creating and deleting tasks is the main focus of the application. The app is aimed at a large volume of tasks. Therefore the ability to create and delete tasks had to be implemented in a way that allowed seamless user interaction.
-        </dd>
+<div class="col-all">
+  <dl>
+    <dt class="heading">Creating and Deleting Tasks</dt>
+      <dd class="col-info">
+        Creating and deleting tasks is the main focus of the application. The app is aimed at a large volume of tasks. Therefore the ability to create and delete tasks had to be implemented in a way that allowed seamless user interaction.
+      </dd>
   </dl>
-  <dl class="row col-md-6">
-      <dt class="info-col">Automatic Deletion of Incomplete Tasks</dt>
-        <dd>
-          Creating a system to automatically delete items after a certain time period has passed was the main challenge. Items upon creation should initiate a timer where, after a certain amount of time has passed, would be deleted if not yet completed by the user.
-        </dd>
+  <dl>
+    <dt class="heading">Automatic Deletion of Incomplete Tasks</dt>
+      <dd class="col-info">
+        Creating a system to automatically delete items after a certain time period has passed was the main challenge. Items upon creation should initiate a timer where, after a certain amount of time has passed, would be deleted if not yet completed by the user.
+      </dd>
   </dl>
 </div>
 
 ## Solution
 
-<div class="col2">
-  <dl class="row col-md-6">
-      <dt class="info-col">Implementing AJAX</dt>
-        <dd>
-          Ajax was implemented to manage the create and delete functions of the application. This allowed the creation and deletion of tasks to be executed without having to refresh the page each time, resulting in unobtrusive interaction.
-        </dd>
+<div class="col-all">
+  <dl>
+    <dt class="heading">Implementing AJAX</dt>
+      <dd class="col-info">
+        Ajax was implemented to manage the create and delete functions of the application. This allowed the creation and deletion of tasks to be executed without having to refresh the page each time, resulting in unobtrusive interaction.
+      </dd>
   </dl>
-  <dl class="row col-md-6">
-      <dt class="info-col">Rake Automation</dt>
-        <dd>
-          In order to automate the deletion of items, Rake was incorporated. A custom rake task was created,  defining the moment an item is created. A specified time period was set in which the item will be deleted if not yet complete.  
-        </dd>
+  <dl>
+    <dt class="heading">Rake Automation</dt>
+      <dd class="col-info">
+        In order to automate the deletion of items, Rake was incorporated. A custom rake task was created,  defining the moment an item is created. A specified time period was set in which the item will be deleted if not yet complete.  
+      </dd>
   </dl>
 </div>
 

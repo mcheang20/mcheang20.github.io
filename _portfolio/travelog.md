@@ -2,7 +2,7 @@
 layout: post
 title: Travelog
 thumbnail-path: "img/blocipedia.png"
-short-description: Share your travel experience with the world.
+short-description: Travel, share, explore.
 
 ---
 
@@ -11,7 +11,7 @@ short-description: Share your travel experience with the world.
 
 ## Overview
 
-Users can record their travels, adventures, and vacations and share them with the whole world.  
+Travelog is an application where users can record their travels, adventures, and vacations and share them with the whole world.  
 
 ## Problem and Challenges
 

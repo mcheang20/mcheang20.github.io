@@ -42,9 +42,9 @@ The project required the design and development based on already existing web ap
         </dd>
   </dl>
   <dl>
-      <dt class="heading">Rails</dt>
+      <dt class="heading">Utilizing Rails</dt>
         <dd class="col-info">
-
+          Using the Ruby on Rails framework made it simple to incorporate user features due to its MVC architecture. The creation of models and routes can be done with minimal code.
         </dd>
   </dl>
 </div>
