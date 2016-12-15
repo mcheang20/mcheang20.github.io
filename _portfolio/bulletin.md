@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bulletin
-thumbnail-path: "img/blocflix.png"
+thumbnail-path: "img/bulletin.png"
 short-description: Discuss and share topics with friends and others.
 
 ---
