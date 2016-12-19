@@ -1,16 +1,16 @@
 ---
 layout: post
-title: API Tracking Tool
-thumbnail-path: "img/blocflix.png"
+title: Metriks
+thumbnail-path: "img/metriks.png"
 short-description: Analytics service for tracking and reporting.
 
 ---
 {:.center}
-![]({{ site.baseurl }}/img/blocflix.png)
+![]({{ site.baseurl }}/img/metriks.png)
 
 ## Overview
 
-Create a web tool that allows activity tracking on registered web applications.
+A web tool that allows activity tracking on registered web applications.
 
 ## Problems and Challenges
 
@@ -20,7 +20,7 @@ Designing and building an API from scratch poses some challenges. The biggest is
   <dl>
       <dt class="heading">Receiving and Tracking Events</dt>
         <dd class="col-info">
-          Our service had to feature the registry of various applications. Registered applications needed to be be able to manage receiving and tracking of events from the client-side.
+          Our service had to feature the registry of various applications. Registered applications needed to be be able to manage, receive, and track events from the client-side.
         </dd>
   </dl>
   <dl>
@@ -37,7 +37,7 @@ Designing and building an API from scratch poses some challenges. The biggest is
   <dl>
       <dt class="heading">Designing a custom API</dt>
         <dd class="col-info">
-          The entire service was constructed using Ruby on Rails. In order for the service to track events from registered applications, custom API routes and a controller were created. A Javascript snippet was devised on the client side. This Javascript snippet tracks an event which then makes an AJAX request to the server-side API.
+          The entire service was constructed using Ruby on Rails. In order for the service to track events from registered applications, custom API routes and a controller were created. A Javascript snippet was created and would be included on the client side. This Javascript snippet tracks an event which then makes an AJAX request to the server-side API.
         </dd>
   </dl>
   <dl>

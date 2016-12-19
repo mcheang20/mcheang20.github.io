@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Biggest Challenge and What I learned
+title: A Challenge and What I learned
 ---
 
 Though my coding journey and experience at Bloc has been exciting and fun there have also been many challenges and moments that made me want to pull my hair out.
@@ -13,7 +13,7 @@ The first step was to create a simple rails application. I wanted to add a simpl
 
 The next step was to start tracking client-side events. In order to do this I decided to implement a snippet of Javascript code that applications would include. This would send an AJAX request to the server-side API creating an event on the server. However since were using cross-origin request to create the event, which browsers normally will not allow, a work around is needed. This is where cross-origin resource sharing(CORS) comes in.
 
-The final step was to update the routes and setup the CORS response headers to allow POST requests to be made across servers. 
+The final step was to update the routes and setup the CORS response headers to allow POST requests to be made across servers.
 
 #### API Controller and Routes
 {% highlight ruby %}
@@ -68,3 +68,9 @@ var blocmetrics = {};
    request.send(JSON.stringify(event));
 }
 {% endhighlight %}
+
+With the code the above, I'm able to link my projects within the application. Events can now be tracked and displayed in the API. This was a simple project that showcases one of the many ways an API can be created and used.  
+
+<div class="border"></div>
+
+Angular-nvD3

@@ -1,13 +1,13 @@
 ---
 layout: post
 title: TimesUp
-thumbnail-path: "img/blocitoff.png"
+thumbnail-path: "img/timesup.png"
 short-description: Become more productive
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocitoff.png)
+![]({{ site.baseurl }}/img/timesup.png)
 
 ## Overview
 
@@ -15,7 +15,7 @@ TimesUp is a self-destructing to-do list application that encourages users to co
 
 ## Problem and Challenges
 
- Using the Ruby on Rails platform, develop an application that allows users to add and check off completed tasks. Tasks are then automatically removed after a certain period of time if not completed.
+ Using the Ruby on Rails framework, develop an application that allows users to add and check off completed tasks. Tasks are then automatically removed after a certain period of time if not completed.
 
 <div class="col-all">
   <dl>
@@ -25,7 +25,7 @@ TimesUp is a self-destructing to-do list application that encourages users to co
       </dd>
   </dl>
   <dl>
-    <dt class="heading">Automatic Deletion of Incomplete Tasks</dt>
+    <dt class="heading">Automatic Removal of Incomplete Tasks</dt>
       <dd class="col-info">
         Creating a system to automatically delete items after a certain time period has passed was the main challenge. Items upon creation should initiate a timer where, after a certain amount of time has passed, would be deleted if not yet completed by the user.
       </dd>

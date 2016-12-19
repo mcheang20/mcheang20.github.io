@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Travelog
-thumbnail-path: "img/blocipedia.png"
+thumbnail-path: "img/travelog.png"
 short-description: Travel, share, explore.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocipedia.png)
+![]({{ site.baseurl }}/img/travelog.png)
 
 ## Overview
 
@@ -33,13 +33,13 @@ Develop an application based on the Ruby on Rails platform that allows users to 
   <dl class="row col-md-4">
       <dt class="info-col">Premium Service</dt>
         <dd>
-          In order to restrict the amount of content that could be posted by users, posts were limited to a certain amount per day. A premium service option was added to remove any restrictions.
+          In order to restrict the amount of content that could be posted by users, posts were limited to a certain amount per day. To remove this restriction on users we wanted to add a premium service option where it would be a subscription based service.
         </dd>
   </dl>
   <dl class="row col-md-4">
       <dt class="info-col">Image and Video Upload</dt>
         <dd>
-          Part of Travelog's content sharing was to allow users to upload images and videos. A problem arose with video uploading resulting in videos being uploaded however the video would not be playable.
+          Part of Travelog's content sharing experience was to allow users to upload images and videos. A problem arose with video uploading resulting in videos being uploaded however the video would not be playable.
         </dd>
   </dl>
 </div>
@@ -50,13 +50,13 @@ Develop an application based on the Ruby on Rails platform that allows users to 
   <dl class="row col-md-4">
       <dt class="info-col">Devise Authentication</dt>
         <dd>
-          Utilizing the Ruby on Rails platform, a simple solution for authentication was adding the Devise gem. This gem handled account creation and session tracking.
+          Utilizing the Ruby on Rails framework, a simple solution for authentication was adding the Devise gem. With this gem we area able to handle account creation as well as handling user sessions.  
         </dd>
   </dl>
   <dl class="row col-md-4">
-      <dt class="info-col">Ground up notification</dt>
+      <dt class="info-col">Notification using Rails and jQuery</dt>
         <dd>
-          A notification system was built and designed using Jquery, Ruby, Javascript, and AJAX. This ensured a proper way of creating and sending notifications consistently
+          A notification system was built and designed using Jquery, Ruby, Javascript, and AJAX. This ensured a proper way of creating and sending notifications consistently.
         </dd>
   </dl>
   <dl class="row col-md-4">
@@ -74,3 +74,5 @@ Develop an application based on the Ruby on Rails platform that allows users to 
 </div>
 
 ## Results
+
+A unique content-sharing application where users can share their travel experiences with the world.  Users can interact with others, explore, or learn more about different locations and plan their future trips.  

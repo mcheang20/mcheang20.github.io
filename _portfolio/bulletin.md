@@ -2,20 +2,20 @@
 layout: post
 title: Bulletin
 thumbnail-path: "img/bulletin.png"
-short-description: Discuss and share topics with friends and others.
+short-description: Share, discuss, learn.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocflix.png)
+![]({{ site.baseurl }}/img/bulletin.png)
 
 ## Overview
 
-Reddit is one of the most popular sharing and web applications in the world. Replicating an application like Reddit using Ruby on Rails brings a set of challenges but also allows the one to discover how the application functions.
+Bulletin offers an alternative on discussing topics, news, and projects with friends and other users.  Share a link, explore topics, or discuss on a posts.
 
 ## Problem and Challenges
 
-The project required the design and development based on already existing web applications. Highlighting key features and aspects which had to be built from the ground up included creation of topic and posts models, user authentication, and user interactions.
+The project applied similar design and development based on already existing web applications. Highlighting key features and aspects which had to be built from the ground up included creation of topic and posts models, user authentication, and user interactions.
 
 <div class="col-all">
   <dl>
@@ -51,3 +51,5 @@ The project required the design and development based on already existing web ap
 
 
 ## Results
+
+A simple and easy-to-use application where users can discuss topics and share information with others.  

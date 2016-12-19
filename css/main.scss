@@ -17,17 +17,6 @@
 @import 'includes/header';
 @import 'includes/footer';
 
-  .col2 {
-    columns: 2 200px;         /* number of columns and width in pixels*/
-    -webkit-columns: 2 200px; /* chrome, safari */
-    -moz-columns: 2 200px;    /* firefox */
-  }
-  .col3 {
-    columns: 3 100px;
-    -webkit-columns: 3 100px;
-    -moz-columns: 3 100px;
-  }
-
   .col-all {
     display: -webkit-box;
     max-width: 435px;
@@ -52,4 +41,8 @@
     dl:nth-child(2){
       padding-top: 23px;
     }
+  }
+
+  .border {
+    border-bottom: 1px solid black;
   }

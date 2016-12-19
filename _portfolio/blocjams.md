@@ -15,7 +15,7 @@ BlocJams is a digital web music player that allows users to stream their favorit
 
 ## Problem and Challenges
 
-Taking similar concepts from other web applications, design and develop an application from scratch using Javascript, jQuery, and AngularJS that enables users to stream and listen to music from all platforms.
+Taking similar concepts from other web applications, designing and developing a music streaming application from scratch using Javascript, jQuery, and AngularJS would pose some challenges.
 
 <div class="col-all">
   <dl>
@@ -27,7 +27,7 @@ Taking similar concepts from other web applications, design and develop an appli
   <dl>
       <dt class="heading">Data Reference Consistency</dt>
         <dd class="col-info">
-          The application required the ability to hold song data consistently without any interruption. This functionality had to be implemented to allow users to navigate to different pages without pausing or reloading the song. This would enable the updating and changing of data across components.
+          The application required the ability to hold song data consistently without any interruption. This functionality had to be implemented to allow users to navigate to different pages without pausing or reloading the song.
         </dd>
   </dl>
   </div>
@@ -35,7 +35,7 @@ Taking similar concepts from other web applications, design and develop an appli
   <dl>
       <dt class="heading">Playback Setting</dt>
         <dd class="col-info">
-          One requirement needed was song playback functionality. Users could play/pause songs and skip forward or backwards but were unable to skip to any point in the song. Song attribute changes had to be observed to properly determine the correct playback position of a song.  Users can continue listening to the point at which the song was stopped while the attributes are updated.  
+          One requirement needed was song playback functionality. Users could play/pause songs and skip forwards or backwards to then next song but were unable to skip to any point in the song. Song attribute changes had to be observed to properly determine the correct playback position of a song.  Users can continue listening to the point at which the song was stopped while the attributes are updated.  
         </dd>
   </dl>
   <dl>
@@ -66,7 +66,7 @@ Taking similar concepts from other web applications, design and develop an appli
     <dl>
       <dt class="heading">Angular Directives</dt>
         <dd class="col-info">
-          A custom directive was created to handle playback functionality. In combination with jQlite methods, existing functions were updated to handle and observe attribute changes. This enabled a user to select a specific time within the song.
+          A custom directive was created to handle playback functionality. In combination with jQlite methods, existing functions were updated to handle and observe attribute changes. This enabled a user to select a specific time within the song and have the song play at that point.
         </dd>
     </dl>
   <dl>
