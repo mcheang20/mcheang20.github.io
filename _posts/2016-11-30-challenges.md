@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Challenge and What I learned
+title: A Challenge 
 ---
 
 Though my coding journey and experience at Bloc has been exciting and fun there have also been many challenges and moments that made me want to pull my hair out.
@@ -72,5 +72,3 @@ var blocmetrics = {};
 With the code the above, I'm able to link my projects within the application. Events can now be tracked and displayed in the API. This was a simple project that showcases one of the many ways an API can be created and used.  
 
 <div class="border"></div>
-
-Angular-nvD3

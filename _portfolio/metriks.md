@@ -14,7 +14,7 @@ A web tool that allows activity tracking on registered web applications.
 
 ## Problems and Challenges
 
-Designing and building an API from scratch poses some challenges. The biggest issue would be the management and communication of data between the server-side and the client-side.  
+Designing and building an API from scratch posed some challenges. The biggest issue would be the management and communication of data between the server-side and the client-side.  
 
 <div class="col-all">
   <dl>

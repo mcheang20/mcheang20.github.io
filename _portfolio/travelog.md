@@ -11,34 +11,36 @@ short-description: Travel, share, explore.
 
 ## Overview
 
-Travelog is an application where users can record their travels, adventures, and vacations and share them with the whole world.  
+Travelog is an application where users can record their travels, adventures, and vacations and share them with the whole world or discover adventures people have taken.
 
 ## Problem and Challenges
 
-Develop an application based on the Ruby on Rails platform that allows users to share content and interact with other users.  
+Develop an application based on the Ruby on Rails platform and implement features that allows users to share content and interact with other users.  
 
-<div class="checkbox col3">
-  <dl class="row col-md-4">
-      <dt class="info-col">User Authentication</dt>
-        <dd>
+<div class="col-all">
+  <dl>
+      <dt class="heading">User Authentication</dt>
+        <dd class="col-info">
           A proper authentication system was needed in order for users to securely create an account as well as sign in and out of the application.  
         </dd>
   </dl>
-  <dl class="row col-md-4">
-      <dt class="info-col">Notification System</dt>
-        <dd>
+  <dl>
+      <dt class="heading">Notification System</dt>
+        <dd class="col-info">
           User content interaction is a key feature of Travelog. A notification system had to be established to notify users of any actions on their posts such as liking and commenting. However issues with the notification functionality were present and had to be resolved.  
         </dd>
   </dl>
-  <dl class="row col-md-4">
-      <dt class="info-col">Premium Service</dt>
-        <dd>
+</div>
+<div class="col-all">
+  <dl>
+      <dt class="heading">Premium Service</dt>
+        <dd class="col-info">
           In order to restrict the amount of content that could be posted by users, posts were limited to a certain amount per day. To remove this restriction on users we wanted to add a premium service option where it would be a subscription based service.
         </dd>
   </dl>
-  <dl class="row col-md-4">
-      <dt class="info-col">Image and Video Upload</dt>
-        <dd>
+  <dl>
+      <dt class="heading">Image and Video Upload</dt>
+        <dd class="col-info">
           Part of Travelog's content sharing experience was to allow users to upload images and videos. A problem arose with video uploading resulting in videos being uploaded however the video would not be playable.
         </dd>
   </dl>
@@ -46,28 +48,30 @@ Develop an application based on the Ruby on Rails platform that allows users to 
 
 ## Solution
 
-<div class="checkbox col3">
-  <dl class="row col-md-4">
-      <dt class="info-col">Devise Authentication</dt>
-        <dd>
+<div class="col-all">
+  <dl>
+      <dt class="heading">Devise Authentication</dt>
+        <dd class="col-info">
           Utilizing the Ruby on Rails framework, a simple solution for authentication was adding the Devise gem. With this gem we area able to handle account creation as well as handling user sessions.  
         </dd>
   </dl>
-  <dl class="row col-md-4">
-      <dt class="info-col">Notification using Rails and jQuery</dt>
-        <dd>
+  <dl>
+      <dt class="heading">Notification using Rails and jQuery</dt>
+        <dd class="col-info">
           A notification system was built and designed using Jquery, Ruby, Javascript, and AJAX. This ensured a proper way of creating and sending notifications consistently.
         </dd>
   </dl>
-  <dl class="row col-md-4">
-      <dt class="info-col">Stripe</dt>
-        <dd>
+</div>
+<div class="col-all">
+  <dl>
+      <dt class="heading">Stripe integration</dt>
+        <dd class="col-info">
           The answer to implementing a subscription payment service involved the use of Stripe. The Stripe platform's architecture and code allowed the secure handling of user payment and routing of money. Once a user has successfully made a payment they are automatically upgraded to a premium member.  
         </dd>
   </dl>
-  <dl class="row col-md-4">
-      <dt class="info-col">Implementing Paperclip</dt>
-        <dd>
+  <dl>
+      <dt class="heading">Implementing Paperclip</dt>
+        <dd class="col-info">
           The Paperlcip gem was used to allow users to upload their images. Javascript code was added to enable the uploading of videos.  
         </dd>
   </dl>

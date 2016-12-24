@@ -11,11 +11,11 @@ short-description: Share, discuss, learn.
 
 ## Overview
 
-Bulletin offers an alternative on discussing topics, news, and projects with friends and other users.  Share a link, explore topics, or discuss on a posts.
+Bulletin offers an alternative way for users to discuss topics, news, and projects with friends and others. Users can share a link, explore topics, or discuss on posts.
 
 ## Problem and Challenges
 
-The project applied similar design and development based on already existing web applications. Highlighting key features and aspects which had to be built from the ground up included creation of topic and posts models, user authentication, and user interactions.
+The project applied similar design and development based on already existing web applications. Highlighting key features and aspects which had to be built from the ground up included creation of topic and posts models, user authentication, and user features that included interactions.
 
 <div class="col-all">
   <dl>
@@ -27,7 +27,7 @@ The project applied similar design and development based on already existing web
   <dl>
       <dt class="heading">User Features</dt>
         <dd class="col-info">
-          Being a social centered web application, we wanted users to have interactions with other users and their content. Features such as commenting, labeling, favoriting, and voting had to be included. Establishing relationships with each model posed to be a challenge.
+          Being a social centered web application, we wanted users to have interactions with other users and their content. Features such as commenting, labeling, favoriting, and voting had to be included. Establishing relationships with each model would have to be planned and created.
         </dd>
   </dl>
 </div>
@@ -44,7 +44,7 @@ The project applied similar design and development based on already existing web
   <dl>
       <dt class="heading">Utilizing Rails</dt>
         <dd class="col-info">
-          Using the Ruby on Rails framework made it simple to incorporate user features due to its MVC architecture. The creation of models and routes can be done with minimal code.
+          Using the Ruby on Rails framework made it simple to incorporate user features due to its MVC architecture. The creation of models, controllers, and routes can be done with minimal code. 
         </dd>
   </dl>
 </div>

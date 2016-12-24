@@ -11,7 +11,7 @@ short-description: Chat with your team, friends, or group.
 
 ## Overview
 
-Chatter is a quick and simple messaging application that allows users to send and receive messages in realtime with a group or their team.  
+Chatter is a quick and simple messaging application that allows users to send and receive messages in realtime with their group or team.  
 
 ## Problem and Challenges
 
@@ -63,4 +63,4 @@ The application had to feature the ability to send and receive messages in realt
 
 ## Results
 
-A quick and easy messaging application where users can message in realtime with their group or team. 
+A quick and easy messaging application where users can message in realtime with their group or team.

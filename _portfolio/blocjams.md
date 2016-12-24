@@ -15,7 +15,7 @@ BlocJams is a digital web music player that allows users to stream their favorit
 
 ## Problem and Challenges
 
-Taking similar concepts from other web applications, designing and developing a music streaming application from scratch using Javascript, jQuery, and AngularJS would pose some challenges.
+Taking similar concepts from other web applications, designing and developing a music streaming application from scratch using Javascript, jQuery, and AngularJS would require proper implementation of logic and structure.
 
 <div class="col-all">
   <dl>
@@ -72,7 +72,7 @@ Taking similar concepts from other web applications, designing and developing a 
   <dl>
     <dt class="heading">Angular-nvD3</dt>
       <dd class="col-info">
-        Using MVC and MVMM patterns, a custom metrics service was used to capture and record events. To display the captured metrics, the Angular-nvD3 library was chosen to visualize the data over a period of time.  
+        Using MVC and MVMM patterns, a custom metrics service was used to capture and record events. To display the captured metrics, the Angular-nvD3 library from D3.js was chosen to visualize the data over a period of time.  
       </dd>
   </dl>
 </div>
