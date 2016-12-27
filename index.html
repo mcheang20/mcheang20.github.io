@@ -3,9 +3,9 @@ layout: default
 ---
 
 <div class="home">
-
+<img class="home-img" src="https://www.frontendhandbook.com/images/web-tech-employed.jpg">
   <div class="work">
-    <h2>My Projects</h2>
+    <h2 class="heading-one">My Projects</h2>
     {% for project in site.portfolio %}
     <div class="project">
       <div class="project-thumb">
@@ -22,7 +22,7 @@ layout: default
   </div>
 
   <div class="posts">
-    <h2 class="post-header">My Posts</h2>
+    <h2 class="post-header header-div">My Posts</h2>
     <ul>
       {% for post in paginator.posts %}
       <li class="post-teaser">
