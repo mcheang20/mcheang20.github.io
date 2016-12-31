@@ -15,7 +15,7 @@ Chatter is a quick and simple messaging application that allows users to send an
 
 ## Problem and Challenges
 
-The application had to feature the ability to send and receive messages in realtime. This meant including a database and backend service to manage the transfer of data between users and the database.
+The focus was to develop an application with the ability to send and receive messages in realtime. This meant including a database and backend service to manage the transfer of data between users and the database.
 
 <div class="col-all-2">
   <dl>
@@ -31,9 +31,9 @@ The application had to feature the ability to send and receive messages in realt
         </dd>
   </dl>
   <dl>
-      <dt class="heading">Ease of Use</dt>
+      <dt class="heading">Keeping It Simple</dt>
         <dd class="col-info">
-          We wanted users to be able to access the application without the requirement of signing in and out for quick and simple usage.     
+          We wanted users to be able to access the application without the requirement of creating an account and  signing in and out for quick and simple usage.     
         </dd>
   </dl>
 </div>
@@ -56,7 +56,7 @@ The application had to feature the ability to send and receive messages in realt
   <dl>
       <dt class="heading">Cookies Service</dt>
         <dd class="info-col">
-          To efficiently store a users information, the ngCookies module was injected. To retrieve data input from the user, Bootstrap's $UIMdodal service was used allowing the creation of data in realtime.
+          To efficiently store a users information, the ngCookies module was injected. To retrieve data input from the user, Bootstrap's $UIMdodal service was used allowing the creation of data in realtime. Users would then only need to create a username to access the application. 
         </dd>
   </dl>
 </div>

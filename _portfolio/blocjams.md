@@ -15,7 +15,7 @@ BlocJams is a digital web music player that allows users to stream their favorit
 
 ## Problem and Challenges
 
-Taking similar concepts from other web applications, designing and developing a music streaming application from scratch using Javascript, jQuery, and AngularJS would require proper implementation of logic and structure.
+ The objective of this project was to design and develop a digital music player and service with a requirement of being accessible on multiple screens and platforms.  
 
 <div class="col-all">
   <dl>

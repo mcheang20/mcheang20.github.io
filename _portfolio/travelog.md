@@ -15,7 +15,7 @@ Travelog is an application where users can record their travels, adventures, and
 
 ## Problem and Challenges
 
-Develop an application based on the Ruby on Rails platform and implement features that allows users to share content and interact with other users.  
+The objective of this project was to develop an interactive and social application. Travelog would implement features that allows users to share content, interact with other users, and provide a subscription service.
 
 <div class="col-all">
   <dl>

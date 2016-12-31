@@ -32,9 +32,9 @@ Though my coding journey and experience at Bloc has been exciting and fun there 
 
 ### API, What's That?
 
-Starting out as a web developer I was first confused with the concept of API's. How do web applications able to connect to other sources and access or update data? However the more I became familiar working with them, the more I became fascinated. Having worked on a few projects I thought it would be interesting to be able connect them to a single application.  
+Starting out as a web developer I was first confused with the concept of API's. How do web applications able to connect to other sources and access or update data? However the more I became familiar working with API's, the more I became fascinated. Having worked on a few projects, I thought it would be interesting to connect all of them to a single application.
 
-The first step was to create a simple rails application. I wanted to add a simple authentication system, app registration, and to display data for applications that were connected. To keep it simple, I decided to just track user activity on registered applications. I then created the necessary controller and routes for event tracking. For the purpose of this project the CSRF protection was ignored.
+The first step was to create a simple rails application. I wanted to add a simple authentication system, app registration, and display data for applications that were connected. To keep it simple, I decided to just track user activity on registered applications. I then created the necessary controller and routes for event tracking. For the purpose of this project the CSRF(Cross-Site Request Forgery) protection was ignored.
 
 The next step was to start tracking client-side events. In order to do this I decided to implement a snippet of Javascript code that applications would include. This would send an AJAX request to the server-side API creating an event on the server. However since were using cross-origin request to create the event, which browsers normally will not allow, a work around is needed. This is where cross-origin resource sharing(CORS) comes in.
 
@@ -94,6 +94,8 @@ var blocmetrics = {};
 }
 {% endhighlight %}
 
-With the code the above, I'm able to link my projects within the application. Events can now be tracked and displayed in the API. This was a simple project that showcases one of the many ways an API can be created and used.  
+![](/img/chart.png)
+
+With the code the above, I'm able to link my projects within the application. Events can now be tracked and displayed in the API. For aesthetics, I added Chartkick to display data in graphs. This was a simple and fun project that showcases one of the many ways an API can be created and used.  
 
 <div class="border"></div>

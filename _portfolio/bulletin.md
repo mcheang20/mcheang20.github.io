@@ -15,19 +15,19 @@ Bulletin offers an alternative way for users to discuss topics, news, and projec
 
 ## Problem and Challenges
 
-The project applied similar design and development based on already existing web applications. Highlighting key features and aspects which had to be built from the ground up included creation of topic and posts models, user authentication, and user features that included interactions.
+The project applied similar design and development based on already existing web applications. Highlighting key features and aspects which had to be planned from the ground up included creation of topic and posts models, user authentication, and user feature interactions.
 
 <div class="col-all">
   <dl>
       <dt class="heading">Voting Issues</dt>
         <dd class="col-info">
-          Implementing a voting feature for users posed some problems. Interaction with the vote model were not generating a change in value of the votes total or the total count of votes would be incremented by the wrong amount.
+          Implementing a voting feature for users posed some initial problems. Interaction with the vote model were not generating a change in value of the votes total or the total count of votes would be incremented by the wrong amount.
         </dd>
   </dl>
   <dl>
-      <dt class="heading">User Features</dt>
+      <dt class="heading">User Experience</dt>
         <dd class="col-info">
-          Being a social centered web application, we wanted users to have interactions with other users and their content. Features such as commenting, labeling, favoriting, and voting had to be included. Establishing relationships with each model would have to be planned and created.
+          Being a social centered web application, we wanted to focus on user experience and interaction with content and other users. Features such as commenting, labeling, favoriting, and voting had to be included. Establishing relationships with each model would have to be planned and created.
         </dd>
   </dl>
 </div>
@@ -38,13 +38,13 @@ The project applied similar design and development based on already existing web
   <dl>
       <dt class="heading">Custom Vote Model and UI</dt>
         <dd class="col-info">
-          A custom voting system was designed on the backend. This provided the ability for users to increase or decrease the vote count of a particular post. The customization also allowed us to pinpoint any issues with registering vote counts and resolve them.  
+          A custom voting system was designed on the backend. This provided the ability for users to increase or decrease the vote count of a particular post. The customization also allowed us to pinpoint any issues with registering vote counts and properly resolve any issues.
         </dd>
   </dl>
   <dl>
       <dt class="heading">Utilizing Rails</dt>
         <dd class="col-info">
-          Using the Ruby on Rails framework made it simple to incorporate user features due to its MVC architecture. The creation of models, controllers, and routes can be done with minimal code. 
+          Using the Ruby on Rails framework made it simple to incorporate user features due to its MVC architecture. The creation and interaction between models, controllers, routes, and views can be done with minimal code. This delivered the proper method to configure how we wanted the user features to function and be displayed on the frontend and how it behaves on the backend.
         </dd>
   </dl>
 </div>

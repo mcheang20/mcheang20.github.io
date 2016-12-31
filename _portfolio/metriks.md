@@ -20,13 +20,13 @@ Designing and building an API from scratch posed some challenges. The biggest is
   <dl>
       <dt class="heading">Receiving and Tracking Events</dt>
         <dd class="col-info">
-          Our service had to feature the registry of various applications. Registered applications needed to be be able to manage, receive, and track events from the client-side.
+          We wanted our service to feature the registry of various applications. Registered applications needed to be be able to manage, receive, and track events from the client-side.
         </dd>
   </dl>
   <dl>
       <dt class="heading">Display Analytics</dt>
         <dd class="col-info">
-          Being an analytics platform, we wanted users to be able to see tracked events on their registered applications.  
+          Being an analytics platform, we wanted to display tracked events on registered applications.  
         </dd>
   </dl>
 </div>
