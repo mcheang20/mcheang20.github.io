@@ -21,13 +21,13 @@ BlocJams is a digital web music player that allows users to stream their favorit
   <dl>
     <dt class="heading">User Control Bar Functionality</dt>
       <dd class="col-info">
-        The control bar gives users an interface to control the music they listen to. A proper control bar had to be designed that allowed users to play/pause a song, skip forwards or backwards, and adjust volume settings.
+        The control bar gives users an interface to manipulate the music they listen to. A proper control bar had to be planned and designed that should allow users to play/pause a song, skip forwards or backwards, and adjust volume settings.
       </dd>
   </dl>
   <dl>
       <dt class="heading">Data Reference Consistency</dt>
         <dd class="col-info">
-          The application required the ability to hold song data consistently without any interruption. This functionality had to be implemented to allow users to navigate to different pages without pausing or reloading the song.
+          The application required the ability to hold song data consistently without any interruption. This functionality had to be implemented to allow users to navigate to different pages without interruption such as the song being paused or reloaded.
         </dd>
   </dl>
   </div>
@@ -35,7 +35,7 @@ BlocJams is a digital web music player that allows users to stream their favorit
   <dl>
       <dt class="heading">Playback Setting</dt>
         <dd class="col-info">
-          One requirement needed was song playback functionality. Users could play/pause songs and skip forwards or backwards to then next song but were unable to skip to any point in the song. Song attribute changes had to be observed to properly determine the correct playback position of a song.  Users can continue listening to the point at which the song was stopped while the attributes are updated.  
+          One requirement needed was song playback functionality. Users could play/pause songs and skip forwards or backwards to the next song but were unable to skip to any point in the song. Song attribute changes had to be observed to properly determine the correct playback position of a song.  Users should be able to continue listening to the point at which the song was stopped while the attributes are updated.  
         </dd>
   </dl>
   <dl>
@@ -58,7 +58,7 @@ BlocJams is a digital web music player that allows users to stream their favorit
   <dl>
     <dt class="heading">Angular Service</dt>
       <dd class="col-info">
-        An Angular service was used to handle data across the application's several components. This allowed the interaction between a user and any of the application's components to be seamless as data is updated. As a result a song does not get paused or reloaded if a user navigates to a different page.
+        An Angular service was used to handle data across the application's several components. This allowed the interaction between a user and any of the application's components to be seamless as data is updated. As a result, a song does not get paused or reloaded if a user navigates to a different page.
       </dd>
   </dl>
   </div>

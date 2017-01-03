@@ -11,7 +11,7 @@ short-description: Chat with your team, friends, or group.
 
 ## Overview
 
-Chatter is a quick and simple messaging application that allows users to send and receive messages in realtime with their group or team.  
+Chatter is a quick and simple messaging client that allows users to send and receive messages in realtime with their group or team.  
 
 ## Problem and Challenges
 
@@ -56,7 +56,7 @@ The focus was to develop an application with the ability to send and receive mes
   <dl>
       <dt class="heading">Cookies Service</dt>
         <dd class="info-col">
-          To efficiently store a users information, the ngCookies module was injected. To retrieve data input from the user, Bootstrap's $UIMdodal service was used allowing the creation of data in realtime. Users would then only need to create a username to access the application. 
+          To efficiently store a users information, the ngCookies module was injected. To retrieve data input from the user, Bootstrap's $UIMdodal service was used allowing the creation of data in realtime. Users would then only need to create a username to access the application.
         </dd>
   </dl>
 </div>
