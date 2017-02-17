@@ -1,6 +1,7 @@
 <header class="site-header">
 	<nav class="site-nav">
-		<ul>
+		<ul class="home-links">
+			<a class="home-btn" href="{{ site.baseurl }}/">Home</a>
 			{% for page in site.pages %}
 			{% if page.title and page.hide != true %}
 			<li>
@@ -17,15 +18,23 @@
   <div class="call-out"
   style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
   	<h1 class="name">
-			<a href="{{ site.baseurl }}/">{{ site.theme_settings.title }}</a>
+			<!--<a href="{{ site.baseurl }}/">{{ site.theme_settings.title }}</a> -->
 		</h1>
-		<div class="divider"></div>
-		<h1 class="top">Full Stack Web Developer</h1>
-    {{ site.theme_settings.header_text }}
+		<!--<div class="divider"></div> -->
+		<img class="top-img" src="http://senseras-netplay.rhcloud.com/image/headline/4.jpg">
+		<div class="top">
+			<h1>Hello.I'm.Matt</h1>
+			<p>I build and design websites</p>
+		</div>
+  	<!-- {{ site.theme_settings.header_text }} -->
     <div class="divider"></div>
     <!-- Social icons from Font Awesome, if enabled -->
 	  <ul>
 	    {% include icons.html %}
+		</ul>
+		<ul>
+			<li class="first"><button type="button" onclick="smoothScroll(document.getElementById('about'))">Learn More</button></li>
+			<li class="first"><button type="button" onclick="smoothScroll(document.getElementById('projects'))">Projects</button></li>
 		</ul>
   </div>
   {% endif %}

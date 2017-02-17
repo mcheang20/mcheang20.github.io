@@ -1,6 +1,5 @@
 .site-header {
   @extend %padding-small;
-  background: $brand-color;
   border-top:5px solid $header-desc-background-color;
   display: inline-block;
   width: 100%;
@@ -48,4 +47,35 @@
       }
     }
   }
+}
+.home-links {
+  a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+  }
+  a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    border-bottom: 2px solid white;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  a:hover:after{
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+.home-btn {
+  margin-left: 30px;
+  float: left;
 }

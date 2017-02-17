@@ -1,11 +1,33 @@
 ---
 layout: default
 ---
-
 <div class="home">
-<img class="home-img" src="https://www.frontendhandbook.com/images/web-tech-employed.jpg">
   <div class="work">
-    <h2 class="heading-one">My Projects</h2>
+    <div class="about-me" id="about">
+      <div class="content">
+        <h2>About Me</h2>
+        <p>Hello, my name is Matt Cheang and I am an entry-level full stack web developer specializing
+           in front-end development. I work mainly with Ruby on Rails and AngularJS. Feel free to view some of my work and read my blog.</p>
+      </div>
+    </div>
+    <!-- <h2 class="heading-one">My Projects</h2> -->
+    <div class="projects" id="projects" style="color:white;">
+      <h2>My Projects</h2>
+      {% for project in site.portfolio %}
+      <div class="container">
+          <a href="{{ project.url | prepend: site.baseurl }}">
+            <img class="thumb" src="{{ project.thumbnail-path }}" alt="{{ project.title }}"/>
+          </a>
+        <div class="overlay">
+          <a class="caption" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+          <!-- <p>{{ project.short-description }}</p> -->
+        </div>
+      </div>
+      {% endfor %}
+    </div> -->
+  </div>
+
+    <!--<h2 class="heading-one">My Projects</h2>
     {% for project in site.portfolio %}
     <div class="project">
       <div class="project-thumb">
@@ -19,7 +41,7 @@ layout: default
       </div>
     </div>
     {% endfor %}
-  </div>
+  </div> -->
 
   <div class="posts">
     <h2 class="post-header header-div">My Posts</h2>

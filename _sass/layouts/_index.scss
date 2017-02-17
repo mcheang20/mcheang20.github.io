@@ -23,7 +23,7 @@
       display: inline-block;
       margin:0 0.5em;
       a {
-        color: $link-color;
+        color: white;
       }
     }
   }
@@ -34,7 +34,7 @@
   .divider {
     width:80px;
     height:3px;
-    background-color:$border-color;
+    background-color: white;
     display:block;
     margin:1.5em auto;
   }
@@ -121,7 +121,7 @@
       margin-top: 1em;
     }
   }
-  
+
 }
 // Pagination
 .pagination .button {
