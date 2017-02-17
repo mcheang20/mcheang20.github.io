@@ -2,6 +2,7 @@
 	<nav class="site-nav">
 		<ul class="home-links">
 			<a class="home-btn" href="{{ site.baseurl }}/">Home</a>
+			<a class="home-btn" href="#about" onclick="smoothScroll(document.getElementById('about'))">About</a>
 			{% for page in site.pages %}
 			{% if page.title and page.hide != true %}
 			<li>
@@ -24,7 +25,7 @@
 		<img class="top-img" src="http://senseras-netplay.rhcloud.com/image/headline/4.jpg">
 		<div class="top">
 			<h1>Hello.I'm.Matt</h1>
-			<p>I build and design websites</p>
+			<p>I build and design web pages</p>
 		</div>
   	<!-- {{ site.theme_settings.header_text }} -->
     <div class="divider"></div>

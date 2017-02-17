@@ -70,6 +70,8 @@
     color: white;
     font-weight: 100;
     h1 {
+      font-size: 90px;
+      font-weight: 100;
       -webkit-animation-name: bubble; /* Safari 4.0 - 8.0 */
       -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
       animation-name: bubble;
@@ -122,7 +124,8 @@
   }
 
   .about-me {
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 
   .first {
@@ -141,13 +144,15 @@
     }
   }
 
-  .projects {
-    background:  #182a3d;
-    margin-left: -300px;
-    margin-right: -300px;
-    padding-left: 200px;
-    padding-right: 200px;
-  }
+.projects {
+  background:  #182a3d;
+  margin-left: -300px;
+  margin-right: -300px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 .container {
   position: relative;
@@ -189,4 +194,12 @@
   font-size: 20px;
   font-weight: 200;
   padding: 16px 32px;
+}
+
+.logos {
+  display: -webkit-box;
+  list-style: none;
+  img {
+    height: 185px;
+  }
 }

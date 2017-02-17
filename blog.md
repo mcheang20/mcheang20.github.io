@@ -6,7 +6,6 @@ feature-img: "img/color.png"
 ---
 <h1 class="blog-title-one"> My Coding Journey </h1>
 
-![](/img/coding.jpg)
 
 ## How it started.
 
