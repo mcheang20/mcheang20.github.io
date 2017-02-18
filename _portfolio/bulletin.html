@@ -1,0 +1,92 @@
+---
+layout: post
+title: Bulletin
+thumbnail-path: "img/bulletin.png"
+short-description: Share, discuss, learn.
+
+---
+
+<!--{:.center}
+![]({{ site.baseurl }}/img/bulletin.png) -->
+
+<img style="border: 1px solid rgba(1,1,1,.1); margin-top: -90px; height:420px;" src="/img/bulletin.png">
+<div style="text-align: center;">
+  <h2>Share, discuss, learn.</h2>
+  <button class="project-btn"><a href="https://bulletin-io.herokuapp.com">View Site</a></button>
+</div>
+
+<h1>Overview</h1>
+<ul class="tags">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Jquery</li>
+  <li>Ruby</li>
+  <li>Ruby on Rails</li>
+  <li>Bootstrap</li>
+</ul></br></br>
+
+<p>
+  Bulletin offers an alternative way for users to discuss topics, news, and projects with
+  friends and others. Users can share a link, explore topics, or discuss on posts.
+</p>
+<p>
+  The project applied similar design and development based on already existing web applications.
+  Highlighting key features and aspects which had to be planned from the ground up included creation
+  of topic and posts models, user authentication, and user feature interactions. Being a social centered
+  web application, we wanted to focus on user experience and interaction with content and other users.
+  Features such as commenting, labeling, favoriting, and voting were implemented from the ground up on the backend with the use of
+  HTML, CSS, and Bootstrap for front end design. Using the Ruby on Rails framework made it simple to incorporate user features due to its MVC architecture.
+</p>
+
+{% comment %}
+## Problem and Challenges
+
+The project applied similar design and development based on already existing web applications. Highlighting key features and aspects which had to be planned from the ground up included creation of topic and posts models, user authentication, and user feature interactions.
+
+<div class="col-all">
+  <dl>
+      <dt class="heading">Voting Issues</dt>
+        <dd class="col-info">
+          Implementing a voting feature for users posed some initial problems.
+          Interaction with the vote model were not generating a change in value of the votes total or
+          the total count of votes would be incremented by the wrong amount.
+        </dd>
+  </dl>
+  <dl>
+      <dt class="heading">User Experience</dt>
+        <dd class="col-info">
+          Being a social centered web application, we wanted to focus on user experience and
+          interaction with content and other users. Features such as commenting, labeling, favoriting,
+          and voting had to be included. Establishing relationships with each model would have to be
+          planned and created.
+        </dd>
+  </dl>
+</div>
+
+## Solution
+
+<div class="col-all">
+  <dl>
+      <dt class="heading">Custom Vote Model and UI</dt>
+        <dd class="col-info">
+          A custom voting system was designed on the backend.
+          This provided the ability for users to increase or decrease the vote count of a particular post. The customization also allowed us to pinpoint any issues with registering vote counts and properly resolve any issues.
+        </dd>
+  </dl>
+  <dl>
+      <dt class="heading">Utilizing Rails</dt>
+        <dd class="col-info">
+          Using the Ruby on Rails framework made it simple to incorporate user
+          features due to its MVC architecture. The creation and interaction between models,
+          controllers, routes, and views can be done with minimal code. This delivered the proper
+          method to configure how we wanted the user features to function and be displayed on the
+          frontend and how it behaves on the backend.
+        </dd>
+  </dl>
+</div>
+
+
+## Results
+
+A simple and easy-to-use application where users can discuss topics and share information with others.
+{% endcomment %}
