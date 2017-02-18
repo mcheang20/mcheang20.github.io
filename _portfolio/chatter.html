@@ -23,13 +23,20 @@ short-description: Chat with your team, friends, or group.
 </ul></br></br>
 <p>
   Chatter is a quick and simple messaging client that allows users to send and receive messages in
-  realtime with their group or team.
+  realtime with their group or team. The focus was to develop an application where exchange of messages between users to be
+  seamless. This meant incorporating a database and backend service to manage the transfer of data
+  between users and the database.
+</p>
+<p>
+  The application was aimed to handle large amounts of messages to be transferred between users.
+  Angular JS was used along with injecting the Firebase service to develop and form the backend.
+  The use of a simple backend service like Firebase allows for easy synchronization between
+  data and user interaction. The UI was designed with HTML, CSS, Bootstrap. To gather any data form the user,
+  a custom cookies service was created along with the use of Bootstrap's $UIMdodal service.
 </p>
 
 {% comment %}
 ## Problem and Challenges
-
-The focus was to develop an application with the ability to send and receive messages in realtime. This meant including a database and backend service to manage the transfer of data between users and the database.
 
 <div class="col-all-2">
   <dl>
@@ -64,8 +71,8 @@ The focus was to develop an application with the ability to send and receive mes
       <dt class="heading">Firebase</dt>
         <dd class="info-col">
           The solution for a database system was the use of the Firebase service.
-          This provided a simple way for handling and syncing data with the backend allowing for r
-          ealtime messaging capabilities.
+          This provided a simple way for handling and syncing data with the backend allowing for
+          realtime messaging capabilities.
         </dd>
   </dl>
   <dl>

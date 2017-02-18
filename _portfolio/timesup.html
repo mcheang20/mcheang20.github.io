@@ -26,12 +26,12 @@ short-description: Become more productive
   Users have a 7 day time period at which the tasks must be completed before it is automatically removed.
 </p>
 <p>
-  Creating and deleting tasks was the main focus of the application. The app is aimed at a large volume of tasks.
-  Ajax was implemented to manage the create and delete functions of the application.
-  This allowed the creation and deletion of tasks to be executed without having to refresh
-  the page each time, resulting in unobtrusive interaction. In order to automate the deletion of items, Rake was incorporated.
-  A custom rake task was coded, defining the moment an item is created. A specified time period was set in which the
-  item will be deleted if not yet complete.
+  Creating and deleting tasks were the main focus of the application. The app is aimed to handle large volumes of tasks.
+  Custom functions were added to handle the creation a deletion of tasks by the user. AJAX was implemented
+  which allowed the creation and deletion of tasks to be executed without having to refresh the page each time,
+  resulting in unobtrusive interaction. In order to automate the deletion of items, Rake was incorporated.
+  A custom rake task was coded, defining the moment an item is created. A specified time period would then be set
+  in which the item will be deleted if not yet complete.
 </p>
 {% comment %}
 ## Problem and Challenges
