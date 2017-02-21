@@ -17,6 +17,40 @@
 @import 'includes/header';
 @import 'includes/footer';
 
+html {
+  font-size: 12px;
+}
+
+h1 {
+  font-family: inherit;
+}
+
+h2 {
+  font-family: inherit;
+}
+
+h3 {
+  font-family: inherit;
+}
+
+p {
+  font-family: inherit;
+}
+
+*, *::before, *::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media (min-width: 640px) {
+    html { font-size: 1.5rem; }
+}
+
+@media (min-width: 1024px) {
+    html { font-size: 1.2rem; }
+}
+
   .col-all {
     display: -webkit-box;
     max-width: 435px;
@@ -100,16 +134,16 @@
   100% {transform: scale(1); opacity: 1;}
 }
 
-  .heading-one {
-    padding: 10px;
-    width: 1422px;
-    margin-left: -284px;
-    text-align: center;
-  }
+.heading-one {
+  padding: 10px;
+  width: 1422px;
+  margin-left: -284px;
+  text-align: center;
+}
 
-  .header-div {
-    border-bottom: 1px solid rgba(1,1,1,.1);
-  }
+.header-div {
+  border-bottom: 1px solid rgba(1,1,1,.1);
+}
 
  .name {
 
@@ -132,8 +166,9 @@
   }
 
   .about-me {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    padding-top: 75px;
   }
 
   .first {
@@ -154,6 +189,7 @@
 
 .projects {
   background:  #182a3d;
+  margin: 0 auto;
   margin-left: -300px;
   margin-right: -300px;
   padding-left: 200px;
@@ -165,7 +201,7 @@
 .container {
   position: relative;
   width: 50%;
-  margin-left: 260px;
+  margin: 0 auto;
   margin-bottom: 20px;
 }
 
@@ -205,10 +241,10 @@
 }
 
 .logos {
-  display: -webkit-box;
+  display: inline-flex;
   list-style: none;
   img {
-    height: 185px;
+    height: 10rem;
   }
 }
 
@@ -226,6 +262,7 @@
   right:0;
   margin:auto;
 }
+
 .console-underscore {
   display:inline-block;
   position:relative;
@@ -270,4 +307,13 @@
       text-decoration: none;
     }
   }
+}
+
+#text {
+  font-size: 2.5rem;
+  margin: 0 auto;
+}
+
+.console-container {
+  margin: 0 auto;
 }
