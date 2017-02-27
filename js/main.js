@@ -43,7 +43,7 @@ window.smoothScroll = function(target) {
     // start scrolling
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
 }
-
+/*
 consoleText(["Hello I'm Matt.", 'I build and design web pages.', 'Made with love.'], 'text',['white']);
 
 function consoleText(words, id, colors) {
@@ -94,3 +94,4 @@ function consoleText(words, id, colors) {
     }
   }, 400)
 }
+*/

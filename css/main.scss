@@ -99,13 +99,11 @@ p {
   .top {
     padding: 10px;
     z-index: 100;
-    width: 1422px;
-    margin-left: -84px;
+    text-align: center;
     color: white;
     font-weight: 100;
     h1 {
-      font-size: 90px;
-      font-weight: 100;
+      font-size: 4rem;
       -webkit-animation-name: bubble; /* Safari 4.0 - 8.0 */
       -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
       animation-name: bubble;
