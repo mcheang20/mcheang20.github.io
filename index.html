@@ -23,8 +23,8 @@ layout: default
       </div>
     </div>
     <!-- <h2 class="heading-one">My Projects</h2> -->
-    <div class="projects" id="projects" style="color:white;">
-      <h2>My Projects</h2>
+    <h1>My Projects</h1>
+    <div class="projects" id="projects">
       {% for project in site.portfolio %}
       <div class="container">
           <a href="{{ project.url | prepend: site.baseurl }}">

@@ -2,9 +2,11 @@
   @extend %padding-small;
   display: inline-block;
   width: 100%;
+  background-image: url("http://senseras-netplay.rhcloud.com/image/headline/4.jpg");
+  background-size: cover;
 
   a {
-    color: $header-link-color;
+    color: white;
   }
 
   .avatar {

@@ -6,7 +6,7 @@
   background-size: cover;
   font-size: 1.2em;
   text-align: center;
-  color: $text-color;
+  color: white;
   background-position:center center;
   .site-title {
     display:block;
@@ -38,7 +38,14 @@
     display:block;
     margin:1.5em auto;
   }
+
+  @media screen and (max-width: 700px) {
+    .divider {
+      height: 0;
+    }
+  }
 }
+
 .call-out p:last-child {
   margin-bottom: 0;
 }
@@ -136,4 +143,10 @@
 }
 .center {
   text-align: center;
+}
+
+@media screen and (max-width: 650px) {
+  .page-content {
+    margin-top: 50px;
+  }
 }
