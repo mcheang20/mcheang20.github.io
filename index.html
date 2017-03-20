@@ -2,41 +2,68 @@
 layout: default
 ---
 <div class="home">
-  <div class="work">
-    <div class="about-me" id="about">
-      <div>
-        <h2>About Me</h2>
-        <p> Hello, my name is Matt Cheang and I am an entry-level full stack web developer specializing
-            in front-end development. I am well-versed with various programming languages such as Ruby,
-            HTML, CSS, and  Javascript. I also have experience working with the Ruby on Rails and AngularJS
-            frameworks.
+  <div class="about-me" id="about">
+    <h2 style="font-size:2.5em;">About Me</h2>
+    <div>
+      <ul class="list-about">
+        <li>
+          <img src="img/about_img_1.png">
+          <h3>Who I am</h3>
+          <p>
+            Hello, my name is Matt Cheang and I am an entry-level full stack web developer specializing
+            in front-end development.
+           </p>
+        </li>
+        <img src="img/about_img_2.png">
+        <h3>What I work on</h3>
+        <p>
+          I am well-versed with various programming languages such as Ruby,
+          HTML, CSS, and  Javascript. I also have experience working with the Ruby on Rails and AngularJS
+          frameworks.
+        </p>
+      </li>
+        <li>
+          <img src="img/about_img_3.png">
+          <h3>Questions?</h3>
+          <p>
             You can read about how I started in web development through my <a href="/blog/">coding journey</a>.
             Feel free to take a look at my projects and view some of the work that I have designed and developed.
             If you have any questions feel free to <a href="/contact/">contact me</a>.
-        </p>
-          <h3>My Toolset</h3>
-        <ul class="logos">
-          <li><img src="img/angular-js.png"></li>
-          <li><img src="img/js-logos.png"></li>
-          <li><img src="img/ruby-rails.png"></li>
-        </ul>
+          </p>
+        </li>
+      </ul>
+    <!--  <p> Hello, my name is Matt Cheang and I am an entry-level full stack web developer specializing
+          in front-end development. I am well-versed with various programming languages such as Ruby,
+          HTML, CSS, and  Javascript. I also have experience working with the Ruby on Rails and AngularJS
+          frameworks.
+          You can read about how I started in web development through my <a href="/blog/">coding journey</a>.
+          Feel free to take a look at my projects and view some of the work that I have designed and developed.
+          If you have any questions feel free to <a href="/contact/">contact me</a>.
+      </p> -->
+    </div>
+    <div>
+      <h3>My Toolset</h3>
+      <ul class="logos">
+        <li><img src="img/angular-js.png"></li>
+        <li><img src="img/js-logos.png"></li>
+        <li><img src="img/ruby-rails.png"></li>
+      </ul>
+    </div>
+  </div>
+    <!-- <h2 class="heading-one">My Projects</h2> -->
+  <h1 style="text-align: center;">My Projects</h1>
+  <div class="projects" id="projects">
+    {% for project in site.portfolio %}
+    <div class="container">
+        <a href="{{ project.url | prepend: site.baseurl }}">
+          <img class="thumb" src="{{ project.thumbnail-path }}" alt="{{ project.title }}"/>
+        </a>
+      <div class="overlay">
+        <a class="caption" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+        <!-- <p>{{ project.short-description }}</p> -->
       </div>
     </div>
-    <!-- <h2 class="heading-one">My Projects</h2> -->
-    <h1>My Projects</h1>
-    <div class="projects" id="projects">
-      {% for project in site.portfolio %}
-      <div class="container">
-          <a href="{{ project.url | prepend: site.baseurl }}">
-            <img class="thumb" src="{{ project.thumbnail-path }}" alt="{{ project.title }}"/>
-          </a>
-        <div class="overlay">
-          <a class="caption" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
-          <!-- <p>{{ project.short-description }}</p> -->
-        </div>
-      </div>
-      {% endfor %}
-    </div> -->
+    {% endfor %}
   </div>
 
     <!--<h2 class="heading-one">My Projects</h2>
@@ -54,7 +81,7 @@ layout: default
     </div>
     {% endfor %}
   </div> -->
-
+</div>
   <div class="posts">
     <h2 class="post-header header-div">My Posts</h2>
     <ul>
@@ -97,4 +124,3 @@ layout: default
     {% endif %}
   </div>
   {% endif %}
-</div>
