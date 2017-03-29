@@ -12,27 +12,32 @@ short-description: Become more productive
 <img style="margin-top:0 auto;" src="/img/timesup.png">
 <h2 style="text-align: center;"> Become more productive</h2>
 
-<h1>Overview</h1>
-<ul class="tags">
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>Javascript</li>
-  <li>AJAX</li>
-  <li>Ruby</li>
-  <li>Ruby on Rails</li>
-</ul></br></br>
-<p>
-  TimesUp is a self-destructing to-do list application that encourages users to complete weekly tasks.
-  Users have a 7 day time period at which the tasks must be completed before it is automatically removed.
-</p>
-<p>
-  Creating and deleting tasks were the main focus of the application. The app is aimed to handle large volumes of tasks.
-  Custom functions were added to handle the creation a deletion of tasks by the user. AJAX was implemented
-  which allowed the creation and deletion of tasks to be executed without having to refresh the page each time,
-  resulting in unobtrusive interaction. In order to automate the deletion of items, Rake was incorporated.
-  A custom rake task was coded, defining the moment an item is created. A specified time period would then be set
-  in which the item will be deleted if not yet complete.
-</p>
+<div class="post-header">
+  <h3>Overview</h3>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+    <li>AJAX</li>
+    <li>Ruby</li>
+    <li>Ruby on Rails</li>
+  </ul>
+</div>
+
+<div class="page-content">
+  <p>
+    TimesUp is a self-destructing to-do list application that encourages users to complete weekly tasks.
+    Users have a 7 day time period at which the tasks must be completed before it is automatically removed.
+  </p>
+  <p>
+    Creating and deleting tasks were the main focus of the application. The app is aimed to handle large volumes of tasks.
+    Custom functions were added to handle the creation a deletion of tasks by the user. AJAX was implemented
+    which allowed the creation and deletion of tasks to be executed without having to refresh the page each time,
+    resulting in unobtrusive interaction. In order to automate the deletion of items, Rake was incorporated.
+    A custom rake task was coded, defining the moment an item is created. A specified time period would then be set
+    in which the item will be deleted if not yet complete.
+  </p>
+</div>
 {% comment %}
 ## Problem and Challenges
 

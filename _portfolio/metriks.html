@@ -11,30 +11,33 @@ short-description: Analytics service for tracking and reporting.
 <img style="margin-top:0 auto;" src="/img/metriks.png">
 <h2 style="text-align: center;"> Analytics service for tracking and reporting.</h2>
 
-<h1>Overview</h1>
-<ul class="tags">
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>Javascript</li>
-  <li>RESTful API</li>
-  <li>Ruby on Rails</li>
-</ul></br></br>
+<div class="post-header">
+<h3>Overview</h3>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+    <li>RESTful API</li>
+    <li>Ruby on Rails</li>
+  </ul></br></br>
+</div>
 
-<p>
-  A web tool that allows activity tracking on registered web applications. Designing and building an API from scratch posed some challenges.
-  The biggest issue would be the management and communication of data between the server-side and
-  the client-side.
-</p>
-<p>
-  The entire service was constructed using Ruby on Rails. In order for the service to
-  track events from registered applications, custom API routes and a controller were added, along
-  with a custom Javascript snippet that would be included on the client side.
-  This Javascript snippet tracks an event which then makes an AJAX request to the server-side enabling the
-  event to be added to the user's registered application. To display tracked events so that users can visualize the data, graphs were used.
-  The Chartkick gem was installed that allowed the creation of graphs with the number
-  of tracked events on each application.
-</p>
-
+<div class="page-content">
+  <p>
+    A web tool that allows activity tracking on registered web applications. Designing and building an API from scratch posed some challenges.
+    The biggest issue would be the management and communication of data between the server-side and
+    the client-side.
+  </p>
+  <p>
+    The entire service was constructed using Ruby on Rails. In order for the service to
+    track events from registered applications, custom API routes and a controller were added, along
+    with a custom Javascript snippet that would be included on the client side.
+    This Javascript snippet tracks an event which then makes an AJAX request to the server-side enabling the
+    event to be added to the user's registered application. To display tracked events so that users can visualize the data, graphs were used.
+    The Chartkick gem was installed that allowed the creation of graphs with the number
+    of tracked events on each application.
+  </p>
+</div>
 
 {% comment %}
 ## Problems and Challenges

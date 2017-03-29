@@ -92,3 +92,59 @@ header {
       }
     }
 }
+
+@media screen and (max-width: 360px) {
+  .post-content {
+    h2 {
+      font-size: 1.6em;
+    }
+  }
+}
+
+.post-header {
+  ul {
+    list-style: none;
+    font-size: 12px;
+    display: inline-block;
+  }
+  li {
+    float: left;
+    margin-left: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 5px;
+    transition: .5s;
+    &:hover {
+      background-color: coral;
+      transform: scale(1.2);
+      color: white;
+    }
+  }
+  h3 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .post-header {
+    h3{
+      font-size: 1.5em;
+    }
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .post-header {
+    li {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 605px) {
+  .post-header {
+    ul {
+      margin-bottom: -30px;
+    }
+  }
+}
