@@ -148,3 +148,26 @@ header {
     }
   }
 }
+
+@media screen and (max-width: 650px) {
+  .page-content {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .page-content p {
+    font-size: .75em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .post-content p {
+    font-size: .6em;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .post-content h1 {
+    font-size: 2em;
+  }
