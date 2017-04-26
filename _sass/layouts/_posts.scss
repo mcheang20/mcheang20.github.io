@@ -1,6 +1,6 @@
 article,
 .comments {
-  padding:0 20% 0;
+  padding: 0 20% 0;
   float: left;
   width: 100%;
 }
@@ -17,8 +17,8 @@ article {
   }
   p {
     img {
-      text-align:center;
-      margin:0 auto;
+      text-align: center;
+      margin: 0 auto;
     }
   }
 }
@@ -115,7 +115,7 @@ header {
     padding: 5px;
     transition: .5s;
     &:hover {
-      background-color: coral;
+      background-color: #ea5d2d;
       transform: scale(1.2);
       color: white;
     }
@@ -127,7 +127,7 @@ header {
 
 @media screen and (max-width: 420px) {
   .post-header {
-    h3{
+    h3 {
       font-size: 1.5em;
     }
   }
@@ -171,3 +171,4 @@ header {
   .post-content h1 {
     font-size: 2em;
   }
+}

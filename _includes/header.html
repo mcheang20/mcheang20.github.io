@@ -1,8 +1,9 @@
-<header class="site-header">
+<header class="site-header" id="top-page">
 	<nav class="site-nav">
+		<li class="site-logo"><a href="#">Matt Cheang</a></li>
 		<ul class="home-links">
-			<a class="home-btn" href="{{ site.baseurl }}/">Home</a>
-			<a class="home-btn" href="#about" onclick="smoothScroll(document.getElementById('about'))">About</a>
+			<li><a class="home-btn" href="{{ site.baseurl }}/">Home</a></li>
+			<li><a class="home-btn" href="#about" onclick="smoothScroll(document.getElementById('about'))">About</a></li>
 			{% for page in site.pages %}
 			{% if page.title and page.hide != true %}
 			<li>
@@ -18,14 +19,15 @@
 	{% if site.theme_settings.header_text %}
   <div class="call-out"
   style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
+	<!--
   	<h1 class="name">
-			<!--<a href="{{ site.baseurl }}/">{{ site.theme_settings.title }}</a> -->
-		</h1>
+			<a href="{{ site.baseurl }}/">{{ site.theme_settings.title }}</a>
+		</h1> -->
 		<!-- <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div> -->
 		<!--<div class="divider"></div> -->
 		<!--<img class="top-img" src="http://senseras-netplay.rhcloud.com/image/headline/4.jpg"> -->
 			<div class="top">
-				<h1>Hello.I'm.Matt</h1></br></br>
+				<h1>Hello. I'm. Matt</h1>
 				<p>I build and design web pages</p>
 			</div>
   	<!-- {{ site.theme_settings.header_text }} -->
