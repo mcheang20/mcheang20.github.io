@@ -113,6 +113,8 @@ p {
     font-family: 'Nothing You Could Do', cursive;
     color: #ea5d2d;
     text-shadow: 1px 1px 1px;
+    list-style: none;
+    text-decoration: none;
   }
 }
 
@@ -166,7 +168,6 @@ p {
   }
 }
 
-
 @media screen and (max-width: 650px) {
   .top {
     h1 {
@@ -187,6 +188,7 @@ p {
     }
     p {
       font-size: 1.5em;
+      line-height: 1.2;
     }
   }
 }
@@ -252,6 +254,7 @@ p {
   }
 }
 
+/* header buttons */
 .first {
   color: white;
   button {
@@ -271,6 +274,13 @@ p {
   }
 }
 
+@media screen and (max-width: 315px) {
+  .first {
+    button {
+      font-size: .75em;
+    }
+  }
+}
 /* projects section */
 .projects {
   margin: 0 auto;
