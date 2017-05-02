@@ -46,10 +46,11 @@
   }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 600px) {
   .call-out {
     h1 {
-      font-size: 2em;
+      font-size: 1.5em;
+      padding: 1%;
     }
   }
 }
@@ -180,7 +181,7 @@
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 900px) {
   .list-about {
     li {
       width: auto;

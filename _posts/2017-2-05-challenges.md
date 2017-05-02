@@ -72,5 +72,3 @@ var blocmetrics = {};
 ![](/img/chart.png)
 
 With the code the above, I'm able to link my projects within the application. Events can now be tracked and displayed in the API. For aesthetics, I added Chartkick to display data in graphs. This was a simple and fun project that showcases one of the many ways an API can be created and used.  
-
-<div class="border"></div>

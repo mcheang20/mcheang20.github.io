@@ -1,8 +1,15 @@
 article,
 .comments {
-  padding: 0 20% 0;
+  padding: 0 20% 5% 20%;
   float: left;
   width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  article,
+  .comments {
+    padding: 0 10% 2%;
+  }
 }
 article {
   header {
@@ -56,6 +63,9 @@ header {
 
 .post-content {
   margin-top: 50px;
+  h2 {
+    margin: 0;
+  }
   form {
       input[type="text"], input[type="email"] {
         width:100%;
@@ -96,7 +106,7 @@ header {
 @media screen and (max-width: 360px) {
   .post-content {
     h2 {
-      font-size: 1.6em;
+      font-size: 1.2em;
     }
   }
 }
@@ -121,14 +131,14 @@ header {
     }
   }
   h3 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
 @media screen and (max-width: 420px) {
   .post-header {
     h3 {
-      font-size: 1.5em;
+      font-size: 1.1em;
     }
   }
 }

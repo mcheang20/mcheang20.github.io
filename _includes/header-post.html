@@ -1,7 +1,9 @@
 <header class="site-header">
   <nav class="site-nav">
     <ul>
-      <a> href="{{ site.baseurl }}/">Home</a>
+      <li>
+        <a href="{{ site.baseurl }}/">Home</a>
+      </li>
       {% for page in site.pages %}
       {% if page.title and page.hide != true %}
       <li>
