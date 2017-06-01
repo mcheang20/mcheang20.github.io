@@ -166,6 +166,12 @@
     width: 33.3%;
     float: left;
     padding: 0 30px;
+    img {
+      transition: .5s;
+      &:hover {
+        transform: rotate(360deg) scale(1.2);
+      }
+    }
   }
   h3 {
     margin: 0 auto;
@@ -178,6 +184,14 @@
   }
   img {
     height: 80px;
+  }
+  &::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  a {
+    color: #fe4b00;
   }
 }
 
@@ -196,10 +210,20 @@
   font-size: 2.5em;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
+  margin-bottom: 1%;
 }
 
 @media screen and (max-width: 360px) {
   .head-title {
     font-size: 2em;
   }
+}
+
+/* divider class */
+.bar {
+  width: 100px;
+  margin: 0 auto;
+  border-top: 5px solid;
+  padding: 1%;
+  color: #fe4b00;
 }

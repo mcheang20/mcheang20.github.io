@@ -1,3 +1,6 @@
+//= require jquery
+//= require jquery_ujs
+
 var elements = document.getElementsByTagName('script')
 
 Array.prototype.forEach.call(elements, function(element) {

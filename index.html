@@ -3,6 +3,8 @@ layout: default
 ---
 <div class="about-me" id="about">
   <h2 class="head-title">About Me</h2>
+  <p>Here's to a new beginning</p>
+  <div class="bar"></div>
   <ul class="list-about">
     <li>
       <img src="img/about_img_1.png">
@@ -35,6 +37,8 @@ layout: default
     <!-- <h2 class="heading-one">My Projects</h2> -->
 <div class="projects" id="projects">
   <h2 class="head-title">My Projects</h2>
+  <p>Take a look</p>
+  <div class="bar"></div>
   {% for project in site.portfolio %}
   <li>
     <div class="project-item">
@@ -64,7 +68,9 @@ layout: default
     {% endfor %}
   </div> -->
   <div class="posts">
-    <h2 class="head-title" style="border-bottom:1px solid rgba(1,1,1,.2);">My Posts</h2>
+    <h2 class="head-title">My Posts</h2>
+    <p style="text-align:center;">Recent Entries</p>
+    <div class="bar"></div>
     <ul>
       {% for post in paginator.posts %}
       <li class="post-teaser">
