@@ -42,6 +42,14 @@ p {
   font-family: inherit;
 }
 
+i {
+  color: white;
+  transition: .5s;
+  &:hover {
+    color: #ea5d2d;
+  }
+}
+
 *, *::before, *::after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
