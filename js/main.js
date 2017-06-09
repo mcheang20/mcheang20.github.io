@@ -107,4 +107,18 @@ function scrollFunction() {
     } else {
         document.getElementById("myBtn").style.display = "none";
     }
-}
+};
+
+$(document).scroll(function () {
+  var ban = $(this).scrollTop();
+  if (ban > 150) {
+    $('.about-me').addClass("animated fadeInUp");
+  }
+});
+
+$(document).scroll(function () {
+  var scr = $(this).scrollTop();
+  if (scr > 350) {
+    $('.projects').addClass("animated fadeInUp");
+  }
+});
