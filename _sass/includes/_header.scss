@@ -38,12 +38,18 @@
       float: left;
       margin-left: 1.4em;
     }
-    @media (max-width: 1100px) {
+    @media (max-width: 1100px) and (min-width: 451px) {
       ul {
         display: inline-block;
         float: left;
         text-align: left;
         width: 100%;
+      }
+    }
+    @media (max-width: 450px) {
+      ul {
+        float: none;
+        text-align: center;
       }
     }
   }
@@ -80,5 +86,11 @@
   .site-header .site-nav li {
     margin-left: 1em;
     float: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .site-nav {
+    text-align: center;
   }
 }
