@@ -120,9 +120,7 @@ i {
 .site-logo {
   a {
     font-size: 1.5em;
-    font-family: 'Nothing You Could Do', cursive;
-    color: #ea5d2d;
-    text-shadow: 1px 1px 1px;
+    color: white;
     list-style: none;
     text-decoration: none;
   }
@@ -333,7 +331,7 @@ i {
 }
 
 .back {
-  background-image: url("https://static.pexels.com/photos/10651/photo-1432821596592-e2c18b78144f.jpeg");
+  background-image: url("/img/notebook.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -342,7 +340,7 @@ i {
   width: 100%;
   height: 1150px;
   position: absolute;
-  filter: blur(1px) grayscale(50%);
+  filter: blur(.5px) grayscale(50%);
 }
 
 .project-item {
