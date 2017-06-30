@@ -38,21 +38,21 @@ layout: default
     </li>
   </ul>
 </section>
-
+<div class="back"></div>
 <section class="projects" id="projects">
   <h2 class="head-title">My Projects</h2>
   <p>Take a look</p>
   <div class="bar"></div>
   {% for project in site.portfolio %}
-  <li>
-    <div class="project-item">
-      <a href="{{ project.url | prepend: site.baseurl }}">
-        <img class="thumb" src="{{ project.thumbnail-path }}" alt="{{ project.title }}"/>
-        <a class="caption" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
-      </a>
-      <!-- <p>{{ project.short-description }}</p> -->
-    </div>
-  </li>
+    <li>
+      <div class="project-item">
+        <a href="{{ project.url | prepend: site.baseurl }}">
+          <img class="thumb" src="{{ project.thumbnail-path }}" alt="{{ project.title }}"/>
+          <a class="caption" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+        </a>
+        <!-- <p>{{ project.short-description }}</p> -->
+      </div>
+    </li>
   {% endfor %}
 </section>
 
