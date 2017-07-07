@@ -48,6 +48,11 @@
         text-align: center;
       }
     }
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
   }
 }
 
@@ -79,15 +84,45 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+.mobile-menu {
+  display: none;
+}
+
+@media screen and (max-width: 600px) and (min-width:451px){
   .site-header .site-nav li {
-    margin-left: 1em;
     float: none;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .site-nav {
-    text-align: center;
+  .site-logo {
+    padding-left: 40px;
+  }
+  .site-header {
+    padding: 0;
+    .site-nav {
+      padding: 2% 0;
+      text-align: center;
+      background-color: rgba(37,45,42,.7);
+      ul {
+        width: 100%;
+        display: inline-grid;
+        border-top: 2px solid rgba(255,255,255,.1);
+      }
+      li {
+        margin-left: 0;
+        a {
+          font-size: 1.2em;
+        }
+      }
+    }
+    .home-links {
+      display: inline-flex;
+    }
+    .mobile-menu {
+      display: inline-block;
+      float: right;
+      padding: 1% 6% 0 0;
+    }
   }
 }

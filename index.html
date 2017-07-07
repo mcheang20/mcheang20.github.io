@@ -2,28 +2,32 @@
 layout: default
 ---
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
-<link rel="stylesheet" href="animate.css">
-<section class="about-me" id="about">
-  <h2 class="head-title">About Me</h2>
-  <p>Here's to a new beginning</p>
+<link rel="stylesheet" href="css/animate.css">
+<section class="about-me" id="skills">
+  <h2 class="head-title">My Skills</h2>
+  <p>I've got it all</p>
   <div class="bar"></div>
   <ul class="list-about">
     <li>
       <img src="img/about_img_1.png" style="border-color:#F28C83;">
-      <h3>Who I am</h3>
+      <h3>Web Developemnt</h3>
       <p>
-        Hello, my name is Matt Cheang and I am an entry-level full stack web developer specializing
-        in front-end development.
+        I am an entry level full stack web developer.
+        I strive to build responsive and modern web applications through well-written code.
+        Front end or back end, you name it, I
+        love and enjoy everything about the world of web development.
        </p>
     </li>
 
     <li>
       <img src="img/about_img_2.png" style="border-color:#20638a;">
-      <h3>What I work on</h3>
+      <h3>Code</h3>
       <p>
+        Though most of my work is focused on the front end: single page applications, HTML/CSS/JS,
+        I enjoy working on the back end as well.
         I am well-versed with various programming languages such as Ruby,
-        HTML, CSS, and  Javascript. I also have experience working with the Ruby on Rails and AngularJS
-        framework.
+        HTML, CSS, and  Javascript. I also have experience working with Ruby on Rails, AngularJS,
+         and Wordpress.
       </p>
     </li>
 
@@ -31,13 +35,54 @@ layout: default
       <img src="img/about_img_3.png" style="border-color:#1abc9c;">
       <h3>Questions?</h3>
       <p>
-        You can read about how I started in web development through my <a href="/blog/">coding journey</a>.
+        Keep scrolling to learn more about me.
         Feel free to take a look at my projects and view some of the work that I have designed and developed.
         If you have any questions feel free to <a href="/contact/">contact me</a>.
       </p>
     </li>
   </ul>
 </section>
+
+<section class="feature" id="feature-section">
+  <h2 class="head-title">About Me</h2>
+  <p>Here's to a new beginning</p>
+  <div class="bar"></div>
+  <div class="feature-page">
+    <div>
+      <img src="https://static.pexels.com/photos/8264/pexels-photo.jpg">
+    </div>
+    <div>
+      <ul>
+        <li>
+          <p class="truncate">I never knew anything about writing code, wether its Ruby, or Javascript,
+            until about 10 months ago. So how did a field that I knew very little of become
+            something that I’m very passionate about?  It all started with some HTML and CSS.
+
+          Like most people out there, if you happen to come across some HTML or Javascript code,
+          you have not the slightest clue as to what it means or what it does. However, it has
+          always fascinated me wondering how it all functions. How do lines and lines of code
+          create a fully functioning application that we, the users, are able to see and interact
+          with? I did a little research and stumbled upon a site called CodeAcademy, a free
+          interactive program that teaches the basics of various programming languages. With this tool I was able to delve deeper into my coding curiosity and I was hooked!
+
+          Starting with HTML and CSS, then working my way to Javascript and Ruby I began to
+          gain a better understanding of the design and concepts of code. Having worked through the
+           CodeAcademy courses, I learned more and more but, most important, I was also having fun
+           at the same time. Seeing it all come together and getting a little better understanding
+           I wanted to learn more.
+
+          Learning code was just a hobby at this point, but I wanted to expand my knowledge
+          and have coding and programming mean more than just a side project. At this point I
+          decided, leave the comfortable career path that I already had chosen, or start fresh
+          and new and further develop my knowledge in a field that brought excitement, curiosity,
+          and sense of accomplishment. Of course I chose the latter.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 <div class="back"></div>
 <section class="projects" id="projects">
   <h2 class="head-title">My Projects</h2>
@@ -56,6 +101,7 @@ layout: default
   {% endfor %}
 </section>
 
+<!--
 <section class="posts">
   <h2 class="head-title">My Posts</h2>
   <p style="text-align:center;">Recent Entries</p>
@@ -100,3 +146,17 @@ layout: default
 </div>
 </section>
 {% endif %}
+-->
+<section class="contact">
+  <h2 class="head-title">Say Hello</h2>
+  <p>I won't bite</p>
+  <div class="bar"></div>
+  <form action="https://getsimpleform.com/messages?form_api_token=24bed2c0c02f5a1426e17d6613fa7879" method="post">
+    <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+    <input type='hidden' name='redirect_to' value='https://mcheang20.github.io/thank-you/' />
+    <input type='text' name='name' placeholder='Your Full Name' />
+    <input type='email' name='email' placeholder='Your E-mail Address' />
+    <textarea name='message' placeholder='Write your message ...'></textarea>
+    <input type='submit' value='Send Message' />
+  </form>
+</section>

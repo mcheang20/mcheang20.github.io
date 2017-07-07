@@ -3,6 +3,7 @@ layout: page
 title: Blog
 permalink: /blog/
 feature-img: "img/color.png"
+hide: true
 ---
 <h1 class="blog-title-one"> My Coding Journey </h1>
 

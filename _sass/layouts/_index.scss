@@ -199,8 +199,17 @@
 
 @media screen and (max-width: 900px) {
   .list-about {
+    padding: 0 10%;
     li {
-      width: auto;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width:550px) {
+  .list-about{
+    img {
+      height: 80px;
     }
   }
 }

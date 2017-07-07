@@ -24,28 +24,6 @@ Array.prototype.forEach.call(elements, function(element) {
   }
 });
 
-window.smoothScroll = function(target) {
-    var scrollContainer = target;
-    do { //find scroll container
-        scrollContainer = scrollContainer.parentNode;
-        if (!scrollContainer) return;
-        scrollContainer.scrollTop += 1;
-    } while (scrollContainer.scrollTop == 0);
-
-    var targetY = 0;
-    do { //find the top of target relatively to the container
-        if (target == scrollContainer) break;
-        targetY += target.offsetTop;
-    } while (target = target.offsetParent);
-
-    scroll = function(c, a, b, i) {
-        i++; if (i > 30) return;
-        c.scrollTop = a + (b - a) / 30 * i;
-        setTimeout(function(){ scroll(c, a, b, i); }, 15);
-    }
-    // start scrolling
-    scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
-}
 /*
 consoleText(["Hello I'm Matt.", 'I build and design web pages.', 'Made with love.'], 'text',['white']);
 
@@ -99,6 +77,7 @@ function consoleText(words, id, colors) {
 }
 */
 
+//home page animations
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -121,4 +100,68 @@ $(document).scroll(function () {
   if (scr > 350) {
     $('.projects').addClass("animated fadeInUp");
   }
+});
+
+$(document).scroll(function () {
+  var feat = $(this).scrollTop();
+  if (feat > 250) {
+    $('.feature').addClass("animated fadeInUp");
+  }
+});
+
+//mobile menu function
+$(document).ready(function(){
+  if($(window).width() <= 450){
+    $('.mobile-menu').click(function(){
+      $('.home-links').slideToggle();
+    })
+  }
+});
+
+//scroll functions
+$(document).ready(function(){
+  $('#learn-link').click(function(){
+    $("html, body").delay(0).animate({
+        scrollTop: $('#skills').offset().top
+    }, 800);
+  })
+});
+
+$(document).ready(function(){
+  $('#about-link').click(function(){
+    $("html, body").delay(0).animate({
+        scrollTop: $('#feature-section').offset().top
+    }, 800);
+  })
+});
+
+$(document).ready(function(){
+  $('#project-link').click(function(){
+    $('html, body').delay(0).animate({
+        scrollTop: $('#projects').offset().top
+    }, 1000);
+  })
+});
+
+$(document).ready(function(){
+  $('#myBtn').click(function(){
+    $('html, body').delay(0).animate({
+        scrollTop: $('#top-page').offset().top
+    }, 1000);
+  })
+});
+
+//truncate function 
+jQuery(function(){
+  var minimized_elements = $('p.truncate');
+
+  minimized_elements.each(function(){
+    var t = $(this).text();
+    if(t.length < 1300) return;
+
+      $(this).html(
+      t.slice(0,1300)+'<span>... </span><a href="/codingjourney/" class="more">Read More</a>'+
+      '<span style="display:none;">'+ t.slice(100,t.length)+' <a href="/codingjourney/" class="less">Less</a></span>'
+    );
+  });
 });

@@ -19,7 +19,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Passion+One');
 @import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do');
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
 html {
@@ -42,6 +41,11 @@ h3 {
 p {
   font-family: 'Open Sans Condensed', sans-serif;
 }
+
+a {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
 
 i {
   color: white;
@@ -118,6 +122,10 @@ i {
 
 /* site logo */
 .site-logo {
+  img {
+    height: 80px;
+    padding: 0 5px 0 0;
+  }
   a {
     font-size: 1.5em;
     color: white;
@@ -189,6 +197,7 @@ i {
 #myBtn {
   display: none;
   position: fixed;
+  font-weight: 100;
   bottom: 20px;
   right: 30px;
   z-index: 99;
@@ -273,6 +282,60 @@ i {
     content: '';
     display: block;
     clear: both;
+  }
+}
+
+/* feature section */
+.feature {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 1% 0 2% 0;
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+.feature-page {
+  column-count: 2;
+  ul {
+    list-style: none;
+    text-align: left;
+    padding: 0 5% 0 0;
+    p {
+      font-size: .8em;
+    }
+    li {
+      img {
+        height: 40px;
+      }
+    }
+    h3 {
+      margin: 0;
+    }
+  }
+  div:nth-child(1){
+    padding: 0 5% 0 5%;
+  }
+}
+
+#question-block {
+  p{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1000px){
+  .feature-page {
+    column-count: 1;
+    div {
+      height: auto;
+    }
+    ul {
+      padding: 5%;
+    }
   }
 }
 
@@ -456,4 +519,50 @@ i {
 
 .console-container {
   margin: 0 auto;
+}
+
+/* contact section */
+.contact {
+  text-align: center;
+  padding: 5% 0;
+  h2 {
+    font-size: 2.5em;
+  }
+  input {
+    width: 50%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 1%;
+    padding: 5px;
+    border: 1px solid rgba(1,1,1,.2);
+    border-radius: 5px;
+  }
+  textarea {
+    width: 50%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 1%;
+    height: 120px;
+    border: 1px solid rgba(1,1,1,.2);
+    border-radius: 5px;
+  }
+  input[type=submit] {
+    background-color: white;
+    color: #ea5d2d;
+    border: 1px solid #ea5d2d;
+    transition: .5s;
+    &:hover {
+      background-color: #ea5d2d;
+      color: white;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contact{
+    input {
+      width: 75%;
+    }
+    textarea {
+      width: 75%;
+    }
+  }
 }
