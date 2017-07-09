@@ -64,6 +64,7 @@
 .call-out p:last-child {
   margin-bottom: 0;
 }
+
 // Post listing
 .posts {
   @extend %padding-header;
@@ -213,8 +214,8 @@
     }
   }
 }
-
-/* title index sections */
+//-----------------------------
+// title index sections
 .head-title {
   color: #1e2d38;
   text-align: center;
@@ -229,8 +230,8 @@
     font-size: 2em;
   }
 }
-
-/* divider class */
+//-----------------------------
+// divider class
 .bar {
   width: 100px;
   margin: 0 auto;

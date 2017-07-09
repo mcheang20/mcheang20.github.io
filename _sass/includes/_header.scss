@@ -4,6 +4,7 @@
   width: 100%;
   background-image: url("http://senseras-netplay.rhcloud.com/image/headline/4.jpg");
   background-size: cover;
+  height: 100vh;
   a {
     color: white;
   }
@@ -86,6 +87,12 @@
 
 .mobile-menu {
   display: none;
+}
+
+@media screen and (max-width:650px){
+  .site-header {
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 600px) and (min-width:451px){

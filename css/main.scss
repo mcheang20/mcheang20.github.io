@@ -21,6 +21,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
+// global styles
 html {
   font-size: 16px;
 }
@@ -38,14 +39,18 @@ h3 {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
+h4 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
 p {
   font-family: 'Open Sans Condensed', sans-serif;
+  color: #929292;
 }
 
 a {
   font-family: 'Open Sans Condensed', sans-serif;
 }
-
 
 i {
   color: white;
@@ -120,7 +125,7 @@ i {
   padding: 0 9% 0 9%;
 }
 
-/* site logo */
+// site logo
 .site-logo {
   img {
     height: 80px;
@@ -133,8 +138,8 @@ i {
     text-decoration: none;
   }
 }
-
-/* header text */
+//-----------------------------
+// header text styles
 .top {
   padding: 10px;
   z-index: 100;
@@ -192,8 +197,8 @@ i {
     }
   }
 }
-
-/* scroll to top button */
+//-----------------------------
+// scroll to top button
 #myBtn {
   display: none;
   position: fixed;
@@ -216,8 +221,8 @@ i {
     transform: scale(1.1);
   }
 }
-
-/* top-down animation */
+//-----------------------------
+// top-down animation
 @-webkit-keyframes topdown {
   from {
     margin-top: -100px;
@@ -237,8 +242,8 @@ i {
       opacity:1;
     }
 }
-
-/* Standard syntax */
+//-----------------------------
+// Standard syntax
 @keyframes example {
   0% {transform: scale(1); opacity: 0;}
   50% {transform: scale(1.5); opacity: .5;}
@@ -284,13 +289,13 @@ i {
     clear: both;
   }
 }
-
-/* feature section */
+//-----------------------------
+// feature section
 .feature {
   margin: 0 auto;
   text-align: center;
   background-color: #f7f7f7;
-  padding: 1% 0 2% 0;
+  padding: 1% 0 4% 0;
   &:after {
     content: '';
     display: block;
@@ -338,8 +343,8 @@ i {
     }
   }
 }
-
-/* header buttons */
+//-----------------------------
+// header buttons
 .first {
   color: white;
   button {
@@ -347,7 +352,6 @@ i {
     background: none;
     border: 2px solid white;
     border-radius: 5px;
-    padding: 6px;
     transition: .5s ease;
     font-weight: 100;
     &:hover {
@@ -367,10 +371,12 @@ i {
     }
   }
 }
-/* projects section */
+//-----------------------------
+// projects section
 .projects {
   margin: 0 auto;
   padding: 1% 3%;
+  text-align: center;
   li {
     list-style: none;
     width: 33.3%;
@@ -393,7 +399,7 @@ i {
   }
 }
 
-.back {
+.back {   //background image
   background-image: url("/img/notebook.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -491,8 +497,8 @@ i {
   top: -0.14em;
   left: 10px;
 }
-
-/* link button on project page */
+//-----------------------------
+// link button on project page
 .project-btn {
   background: #ea5d2d;
   border: 1px solid #ea5d2d;
@@ -520,8 +526,8 @@ i {
 .console-container {
   margin: 0 auto;
 }
-
-/* contact section */
+//-----------------------------
+// contact section
 .contact {
   text-align: center;
   padding: 5% 0;
