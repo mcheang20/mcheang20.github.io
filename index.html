@@ -8,8 +8,9 @@ layout: default
   <h4>I've got it all</h4>
   <div class="bar"></div>
   <ul class="list-about">
+
     <li>
-      <img src="img/about_img_1.png" style="border-color:#F28C83;">
+      <img src="img/about_img_1.png" alt="image_1" style="border-color:#F28C83;">
       <h3>Web Developemnt</h3>
       <p>
         I am an entry level full stack web developer.
@@ -20,7 +21,7 @@ layout: default
     </li>
 
     <li>
-      <img src="img/about_img_2.png" style="border-color:#20638a;">
+      <img src="img/about_img_2.png" alt="image_2" style="border-color:#20638a;">
       <h3>Code</h3>
       <p>
         Though most of my work is focused on the front end: single page applications, HTML/CSS/JS,
@@ -32,7 +33,7 @@ layout: default
     </li>
 
     <li>
-      <img src="img/about_img_3.png" style="border-color:#1abc9c;">
+      <img src="img/about_img_3.png" alt="image_3" style="border-color:#1abc9c;">
       <h3>Questions?</h3>
       <p>
         Keep scrolling to learn more about me.
@@ -40,6 +41,7 @@ layout: default
         If you have any questions feel free to <a href="/contact/">contact me</a>.
       </p>
     </li>
+
   </ul>
 </section>
 
@@ -49,8 +51,9 @@ layout: default
   <div class="bar"></div>
   <div class="feature-page">
     <div>
-      <img src="https://static.pexels.com/photos/8264/pexels-photo.jpg">
+      <img src="https://static.pexels.com/photos/8264/pexels-photo.jpg" alt="project_background">
     </div>
+
     <div>
       <ul>
         <li>
@@ -58,28 +61,29 @@ layout: default
             until about 10 months ago. So how did a field that I knew very little of become
             something that I’m very passionate about?  It all started with some HTML and CSS.
 
-          Like most people out there, if you happen to come across some HTML or Javascript code,
-          you have not the slightest clue as to what it means or what it does. However, it has
-          always fascinated me wondering how it all functions. How do lines and lines of code
-          create a fully functioning application that we, the users, are able to see and interact
-          with? I did a little research and stumbled upon a site called CodeAcademy, a free
-          interactive program that teaches the basics of various programming languages. With this tool I was able to delve deeper into my coding curiosity and I was hooked!
+            Like most people out there, if you happen to come across some HTML or Javascript code,
+            you have not the slightest clue as to what it means or what it does. However, it has
+            always fascinated me wondering how it all functions. How do lines and lines of code
+            create a fully functioning application that we, the users, are able to see and interact
+            with? I did a little research and stumbled upon a site called CodeAcademy, a free
+            interactive program that teaches the basics of various programming languages. With this tool I was able to delve deeper into my coding curiosity and I was hooked!
 
-          Starting with HTML and CSS, then working my way to Javascript and Ruby I began to
-          gain a better understanding of the design and concepts of code. Having worked through the
-           CodeAcademy courses, I learned more and more but, most important, I was also having fun
-           at the same time. Seeing it all come together and getting a little better understanding
-           I wanted to learn more.
+            Starting with HTML and CSS, then working my way to Javascript and Ruby I began to
+            gain a better understanding of the design and concepts of code. Having worked through the
+             CodeAcademy courses, I learned more and more but, most important, I was also having fun
+             at the same time. Seeing it all come together and getting a little better understanding
+             I wanted to learn more.
 
-          Learning code was just a hobby at this point, but I wanted to expand my knowledge
-          and have coding and programming mean more than just a side project. At this point I
-          decided, leave the comfortable career path that I already had chosen, or start fresh
-          and new and further develop my knowledge in a field that brought excitement, curiosity,
-          and sense of accomplishment. Of course I chose the latter.
+            Learning code was just a hobby at this point, but I wanted to expand my knowledge
+            and have coding and programming mean more than just a side project. At this point I
+            decided, leave the comfortable career path that I already had chosen, or start fresh
+            and new and further develop my knowledge in a field that brought excitement, curiosity,
+            and sense of accomplishment. Of course I chose the latter.
           </p>
         </li>
       </ul>
     </div>
+
   </div>
 </section>
 
@@ -88,17 +92,18 @@ layout: default
   <h2 class="head-title">My Projects</h2>
   <h4>Take a look</h4>
   <div class="bar"></div>
+  <ul>
   {% for project in site.portfolio %}
     <li>
       <div class="project-item">
-        <a href="{{ project.url | prepend: site.baseurl }}">
+        <a href="{{ project.url | prepend: site.baseurl }}"></a>
           <img class="thumb" src="{{ project.thumbnail-path }}" alt="{{ project.title }}"/>
           <a class="caption" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
-        </a>
         <!-- <p>{{ project.short-description }}</p> -->
       </div>
     </li>
   {% endfor %}
+  </ul>
 </section>
 
 <!--

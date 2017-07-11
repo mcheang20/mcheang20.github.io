@@ -22,35 +22,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
 // global styles
-html {
-  font-size: 16px;
-}
+html {font-size: 16px; }
 
-h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
-}
+h1,h3,h4,a {font-family: 'Open Sans Condensed', sans-serif;}
 
-h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: #1e2d38;
-}
-
-h3 {
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-
-h4 {
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-
-p {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: #929292;
-}
-
-a {
-  font-family: 'Open Sans Condensed', sans-serif;
-}
+h2,p {font-family: 'Open Sans Condensed', sans-serif; color: #1e2d38;}
 
 i {
   color: white;
@@ -76,10 +52,7 @@ i {
   }
 }
 
-.col-all {
-  display: -webkit-box;
-  max-width: 435px;
-}
+.col-all {display: -webkit-box; max-width: 435px;}
 
 .col-all-2 {
   display: -webkit-box;
@@ -87,13 +60,7 @@ i {
   margin-left: -34px;
 }
 
-.col-info {
-  margin-left: none;
-}
-
-.heading {
-  text-align: center;
-}
+.heading {text-align: center;}
 
 .checkbox {
   dl:nth-child(2) {
@@ -101,19 +68,11 @@ i {
   }
 }
 
-.border {
-  border-bottom: 1px solid black;
-}
+.border {border-bottom: 1px solid black;}
 
-.blog-title {
-  text-align: center;
-  display: flex;
-}
+.blog-title {text-align: center; display: flex;}
 
-.blog-title-one {
-  text-align: center;
-  margin-top: -10px;
-}
+.blog-title-one {text-align: center; margin-top: -10px;}
 
 .home-img {
   margin-left: 220px;
@@ -121,9 +80,7 @@ i {
   margin-bottom: -55px;
 }
 
-.home {
-  padding: 0 9% 0 9%;
-}
+.home {padding: 0 9% 0 9%;}
 
 // site logo
 .site-logo {
@@ -167,33 +124,22 @@ i {
 
 @media screen and (max-width: 400px) {
   .top{
-    p {
-      font-size: 1em;
-      margin: 12% 0 0 0;
-    }
+    p {font-size: 1em; margin: 12% 0 0 0;}
   }
 }
 
 @media screen and (max-width: 650px) and (min-width: 401px) {
   .top {
-    h1 {
-      font-size: 2em;
-    }
-    p {
-      font-size: 1em;
-      margin: 9% 0 0 0;
+    h1 {font-size: 2em;}
+    p {font-size: 1em; margin: 9% 0 0 0;
     }
   }
 }
 
 @media screen and (max-width: 1200px) and (min-width: 651px) {
   .top {
-    h1 {
-      font-size: 2.5em;
-    }
-    p {
-      font-size: 1.5em;
-      line-height: 1.2;
+    h1 {font-size: 2.5em;}
+    p {font-size: 1.5em; line-height: 1.2;
     }
   }
 }
@@ -224,23 +170,13 @@ i {
 //-----------------------------
 // top-down animation
 @-webkit-keyframes topdown {
-  from {
-    margin-top: -100px;
-    opacity:0;
-  }
-  to {
-      margin-top: 0;
-      opacity:1;
-    }
+  from {margin-top: -100px; opacity:0;}
+  to {margin-top: 0; opacity:1;}
 }
 
 @-webkit-keyframes bottomup {
-  from {
-    opacity:0;
-  }
-  to {
-      opacity:1;
-    }
+  from {opacity:0;}
+  to {opacity:1;}
 }
 //-----------------------------
 // Standard syntax
@@ -257,15 +193,10 @@ i {
   text-align: center;
 }
 
-.header-div {
-  border-bottom: 1px solid rgba(1,1,1,.1);
-}
+.header-div {border-bottom: 1px solid rgba(1,1,1,.1);}
 
 .name {
- a {
-    color: white;
-    font-weight: 100;
-  }
+ a {color: white;font-weight: 100;}
 }
 
 .top-img {
@@ -276,9 +207,7 @@ i {
   top: 0;
 }
 
-.sub-header {
-  color: white;
-}
+.sub-header {color: white;}
 
 .about-me {
   margin: 0 auto;
@@ -327,20 +256,14 @@ i {
 }
 
 #question-block {
-  p{
-    display: none;
-  }
+  p {display: none;}
 }
 
 @media screen and (max-width:1000px){
   .feature-page {
     column-count: 1;
-    div {
-      height: auto;
-    }
-    ul {
-      padding: 5%;
-    }
+    div {height: auto;}
+    ul {padding: 5%;}
   }
 }
 //-----------------------------
@@ -366,9 +289,7 @@ i {
 
 @media screen and (max-width: 315px) {
   .first {
-    button {
-      font-size: .75em;
-    }
+    button {font-size: .75em;}
   }
 }
 //-----------------------------
@@ -412,9 +333,7 @@ i {
   filter: blur(.5px) grayscale(50%);
 }
 
-.project-item {
-  text-align: center;
-}
+.project-item {text-align: center;}
 
 .project-item:hover .caption {
   opacity: 1;
@@ -436,9 +355,7 @@ i {
 
 @media screen and (max-width: 1200px) and (min-width: 801px) {
   .projects {
-    li {
-      width: 50%;
-    }
+    li {width: 50%;}
   }
 }
 
@@ -471,10 +388,7 @@ i {
   }
 }
 
-.logos {
-  display: inline-flex;
-  list-style: none;
-}
+.logos {display: inline-flex;list-style: none;}
 
 .console-container {
   font-size: 60px;
@@ -496,35 +410,6 @@ i {
   position: relative;
   top: -0.14em;
   left: 10px;
-}
-//-----------------------------
-// link button on project page
-.project-btn {
-  background: #ea5d2d;
-  border: 1px solid #ea5d2d;
-  padding: 10px;
-  border-radius: 5px;
-  transition: .5s;
-  &:hover {
-    transform: scale(1.2);
-  }
-  a {
-    color: white;
-    font-family: 'Open Sans Condensed', sans-serif;
-    &:hover {
-      color: rgba(255,255,255,.7);
-      text-decoration: none;
-    }
-  }
-}
-
-#text {
-  font-size: 2.5em;
-  margin: 0 auto;
-}
-
-.console-container {
-  margin: 0 auto;
 }
 //-----------------------------
 // contact section
@@ -564,11 +449,7 @@ i {
 
 @media screen and (max-width: 900px) {
   .contact{
-    input {
-      width: 75%;
-    }
-    textarea {
-      width: 75%;
-    }
+    input {width: 75%;}
+    textarea {width: 75%;}
   }
 }
