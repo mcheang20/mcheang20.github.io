@@ -333,6 +333,12 @@ i {
   filter: blur(.5px) grayscale(50%);
 }
 
+@media screen and (min-width:770px){
+  .back{
+    display: none;
+  }
+}
+
 .project-item {text-align: center;}
 
 .project-item:hover .caption {
