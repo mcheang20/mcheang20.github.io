@@ -104,10 +104,10 @@ jQuery(function(){
 
   minimized_elements.each(function(){
     var t = $(this).text();
-    if(t.length < 1100) return;
+    if(t.length < 620) return;
 
       $(this).html(
-      t.slice(0,1100)+'<span>... </span><a href="/codingjourney/" class="more">Read More</a>'+
+      t.slice(0,620)+'<span>... </span><a href="/codingjourney/" class="more">Read More >></a>'+
       '<span style="display:none;">'+ t.slice(100,t.length)+' <a href="/codingjourney/" class="less">Less</a></span>'
     );
   });
