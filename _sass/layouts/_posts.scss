@@ -141,14 +141,14 @@ header {
 .project-title {
   text-align: center;
   a {
-    background: #ea5d2d;
-    color: white;
+    color: #ea5d2d;
     padding: 10px;
     border: 1px solid #ea5d2d;
     border-radius: 5px;
     transition: .5s;
     &:hover {
-      color: grey;
+      background-color: #ea5d2d;
+      color: white;
       text-decoration: none;
     }
   }
