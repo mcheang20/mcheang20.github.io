@@ -1,11 +1,12 @@
+//top header
 .site-header {
   @extend %padding-small;
   display: inline-block;
   width: 100%;
-  background-image: url("http://senseras-netplay.rhcloud.com/image/headline/4.jpg");
+  background-image: url("/img/sideimg.jpg");
   background-size: cover;
   a {
-    color: white;
+    color: #1abc9c;
   }
   .avatar {
     height: 2em;
@@ -58,7 +59,8 @@
 
 .home-links {
   a {
-    color: white;
+    color: #de776e;
+    font-size: 1.1em;
     text-decoration: none;
     position: relative;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -70,14 +72,14 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    border-bottom: 2px solid #ea5d2d;
+    border-bottom: 2px solid #20638a;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
   }
-  a:hover:after{
+  a:hover:after {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
@@ -88,13 +90,13 @@
   display: none;
 }
 
-@media screen and (max-width:650px){
+@media screen and (max-width: 650px){
   .site-header {
     height: auto;
   }
 }
 
-@media screen and (max-width: 600px) and (min-width:451px){
+@media screen and (max-width: 600px) and (min-width: 451px){
   .site-header .site-nav li {
     float: none;
   }

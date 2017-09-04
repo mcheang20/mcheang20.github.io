@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
 <link rel="stylesheet" href="css/animate.css">
 <section class="about-me" id="skills">
   <h2 class="head-title">My Skills</h2>
   <h4>I've got it all</h4>
   <div class="bar"></div>
-  <ul class="list-about">
 
+  <ul class="list-about">
     <li>
       <img src="img/about_img_1.png" alt="image_1" style="border-color:#F28C83;">
       <h3>Web Development</h3>
@@ -41,7 +41,6 @@ layout: default
         If you have any questions feel free to <a href="/contact/">contact me</a>.
       </p>
     </li>
-
   </ul>
 </section>
 
@@ -49,9 +48,10 @@ layout: default
   <h2 class="head-title">About Me</h2>
   <h4>Here's to a new beginning</h4>
   <div class="bar"></div>
+
   <div class="feature-page">
     <div>
-      <img src="https://static.pexels.com/photos/8264/pexels-photo.jpg" alt="project_background">
+      <img src="img/sideimg.jpg" alt="project_background">
     </div>
 
     <div>
@@ -66,44 +66,33 @@ layout: default
             always fascinated me wondering how it all functions. How do lines and lines of code
             create a fully functioning application that we, the users, are able to see and interact
             with? I did a little research and stumbled upon a site called CodeAcademy, a free
-            interactive program that teaches the basics of various programming languages. With this tool I was able to delve deeper into my coding curiosity and I was hooked!
-
-            Starting with HTML and CSS, then working my way to Javascript and Ruby I began to
-            gain a better understanding of the design and concepts of code. Having worked through the
-             CodeAcademy courses, I learned more and more but, most important, I was also having fun
-             at the same time. Seeing it all come together and getting a little better understanding
-             I wanted to learn more.
-
-            Learning code was just a hobby at this point, but I wanted to expand my knowledge
-            and have coding and programming mean more than just a side project. At this point I
-            decided, leave the comfortable career path that I already had chosen, or start fresh
-            and new and further develop my knowledge in a field that brought excitement, curiosity,
-            and sense of accomplishment. Of course I chose the latter.
-          </p>
+            interactive program that teaches the basics of various programming languages. With this tool
+            I was able to delve deeper into my coding curiosity and I was hooked!
         </li>
       </ul>
     </div>
-
   </div>
 </section>
 
-<!--background image --><div class="back"></div>
+<div class="back"></div><!--background image -->
+
 <section class="projects" id="projects">
   <h2 class="head-title">My Projects</h2>
   <h4>Take a look</h4>
+
   <div class="bar"></div>
-  <ul>
-  {% for project in site.portfolio %}
-    <li>
-      <div class="project-item">
-        <a href="{{ project.url | prepend: site.baseurl }}"></a>
-          <img class="thumb" src="{{ project.thumbnail-path }}" alt="{{ project.title }}"/>
-          <a class="caption" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
-        <!-- <p>{{ project.short-description }}</p> -->
-      </div>
-    </li>
-  {% endfor %}
-  </ul>
+    <ul>
+    {% for project in site.portfolio %}
+      <li>
+        <div class="project-item">
+          <a href="{{ project.url | prepend: site.baseurl }}"></a>
+            <img class="thumb" src="{{ project.thumbnail-path }}" alt="{{ project.title }}"/>
+            <a class="caption" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+            <!-- <p>{{ project.short-description }}</p> -->
+        </div>
+      </li>
+    {% endfor %}
+    </ul>
 </section>
 
 <!--
@@ -152,9 +141,11 @@ layout: default
 </section>
 {% endif %}
 -->
+
 <section class="contact">
   <h2 class="head-title">Say Hello</h2>
   <h4>I won't bite</h4>
+
   <div class="bar"></div>
   <form action="https://getsimpleform.com/messages?form_api_token=24bed2c0c02f5a1426e17d6613fa7879" method="post">
     <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
