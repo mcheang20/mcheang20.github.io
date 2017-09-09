@@ -38,7 +38,7 @@ layout: default
       <p>
         Keep scrolling to learn more about me.
         Feel free to take a look at my projects and view some of the work that I have designed and developed.
-        If you have any questions feel free to <a href="/contact/">contact me</a>.
+        If you have any questions feel free to contact me.
       </p>
     </li>
   </ul>
@@ -55,21 +55,18 @@ layout: default
     </div>
 
     <div>
-      <ul>
-        <li>
-          <p class="truncate">I never knew anything about writing code, wether its Ruby, or Javascript,
-            until about 10 months ago. So how did a field that I knew very little of become
-            something that I’m very passionate about?  It all started with some HTML and CSS.
+      <p class="truncate">I never knew anything about writing code, wether its Ruby, or Javascript,
+        until about 10 months ago. So how did a field that I knew very little of become
+        something that I’m very passionate about?  It all started with some HTML and CSS.
 
-            Like most people out there, if you happen to come across some HTML or Javascript code,
-            you have not the slightest clue as to what it means or what it does. However, it has
-            always fascinated me wondering how it all functions. How do lines and lines of code
-            create a fully functioning application that we, the users, are able to see and interact
-            with? I did a little research and stumbled upon a site called CodeAcademy, a free
-            interactive program that teaches the basics of various programming languages. With this tool
-            I was able to delve deeper into my coding curiosity and I was hooked!
-        </li>
-      </ul>
+        Like most people out there, if you happen to come across some HTML or Javascript code,
+        you have not the slightest clue as to what it means or what it does. However, it has
+        always fascinated me wondering how it all functions. How do lines and lines of code
+        create a fully functioning application that we, the users, are able to see and interact
+        with? I did a little research and stumbled upon a site called CodeAcademy, a free
+        interactive program that teaches the basics of various programming languages. With this tool
+        I was able to delve deeper into my coding curiosity and I was hooked!
+      </p>
     </div>
   </div>
 </section>
@@ -147,12 +144,24 @@ layout: default
   <h4>I won't bite</h4>
 
   <div class="bar"></div>
-  <form action="https://getsimpleform.com/messages?form_api_token=24bed2c0c02f5a1426e17d6613fa7879" method="post">
-    <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-    <input type='hidden' name='redirect_to' value='https://mcheang20.github.io/thank-you/' />
-    <input type='text' name='name' placeholder='Your Full Name' />
-    <input type='email' name='email' placeholder='Your E-mail Address' />
-    <textarea name='message' placeholder='Write your message ...'></textarea>
-    <input type='submit' value='Send Message' />
-  </form>
+  <div class="contact-section">
+    <form action="https://getsimpleform.com/messages?form_api_token=24bed2c0c02f5a1426e17d6613fa7879" method="post">
+      <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+      <input type='hidden' name='redirect_to' value='https://mcheang20.github.io/thank-you/' />
+      <input type='text' name='name' placeholder='Your Full Name' />
+      <input type='email' name='email' placeholder='Your E-mail Address' />
+      <textarea name='message' placeholder='Write your message ...'></textarea>
+      <input type='submit' value='Send Message' />
+    </form>
+
+    <div class="contact-info">
+      <h4>Contact Me</h4>
+      <ul>
+        <li><i class="fa fa-user" aria-hidden="true"></i> Matt Cheang</li>
+        <li><i class="fa fa-tablet" aria-hidden="true"></i> (209)505-5318</li>
+        <li><i class="fa fa-envelope" aria-hidden="true"></i> cheangmatt@gmail.com</li>
+        <li><i class="fa fa-file-pdf-o" aria-hidden="true"></i><a href="img/mattcheangresume.pdf"> My Resume</a></li>
+      </ul>
+    </div>
+ </div>
 </section>

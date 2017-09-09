@@ -91,6 +91,14 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+  $('#contact-link').click(function(){
+    $("html, body").delay(0).animate({
+        scrollTop: $('.contact').offset().top
+    }, 800);
+  })
+});
+
+$(document).ready(function(){
   $('#myBtn').click(function(){
     $('html, body').delay(0).animate({
         scrollTop: $('#top-page').offset().top
